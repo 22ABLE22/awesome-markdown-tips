@@ -4,12 +4,17 @@
 
 把 `YOUR_USERNAME`、`OWNER`、`REPO` 换成你的即可。
 
+> [!IMPORTANT]
+> 统计卡片请使用 **[GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended)**。
+> 域名：`https://github-stats-extended.vercel.app`
+> 旧版 `github-readme-stats.vercel.app` 已停止维护，公共实例不可用；参数高度兼容，只需换域名。
+
 ---
 
 ## 1. GitHub Stats 主卡片
 
 ```markdown
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
+[![GitHub stats](https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 ```
 
 常用参数组合：
@@ -26,6 +31,28 @@
 
 # 统计私有仓库（需在环境变量配置 PAT）
 ?username=X&show_icons=true&count_private=true&include_all_commits=true
+
+# 深浅色自动切换（推荐）
+<picture>
+  <source srcset="https://github-stats-extended.vercel.app/api?username=X&theme=dark_github" media="(prefers-color-scheme: dark)" />
+  <img src="https://github-stats-extended.vercel.app/api?username=X&theme=light_github" />
+</picture>
+```
+
+在线可视化配置：[Card Wizard](https://github-stats-extended.vercel.app/frontend)
+
+---
+
+## 1.5 仓库 / Gist 置顶卡片
+
+突破 GitHub 原生 6 个 Pin 限制：
+
+```markdown
+<!-- 仓库卡片 -->
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=YOUR_USERNAME&repo=YOUR_REPO&theme=radical)](https://github.com/YOUR_USERNAME/YOUR_REPO)
+
+<!-- Gist 卡片 -->
+[![Gist Card](https://github-stats-extended.vercel.app/api/gist?id=YOUR_GIST_ID&theme=radical)](https://gist.github.com/YOUR_GIST_ID)
 ```
 
 ---
@@ -33,7 +60,7 @@
 ## 2. Top Languages 语言占比
 
 ```markdown
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)
 ```
 
 参数：
@@ -295,7 +322,7 @@ Pacifico · Caveat · Montserrat · Poppins · Raleway
 前提：注册 [WakaTime](https://wakatime.com)，安装插件，绑定 GitHub。
 
 ```markdown
-[![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_USERNAME&theme=radical&layout=compact)](https://wakatime.com/@YOUR_USERNAME)
+[![WakaTime](https://github-stats-extended.vercel.app/api/wakatime?username=YOUR_USERNAME&theme=radical&layout=compact)](https://wakatime.com/@YOUR_USERNAME)
 ```
 
 ---
@@ -326,8 +353,8 @@ Pacifico · Caveat · Montserrat · Poppins · Raleway
 
 ```html
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 <br/>
@@ -395,11 +422,14 @@ pie title 本月语言分布
 
 ## 18. 组件来源一览
 
-| 组件 | 服务 | 开源仓库 |
-|------|------|----------|
-| GitHub Stats | vercel.app | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) |
-| Top Langs | 同上 | 同上 |
-| WakaTime | 同上 | 同上 |
+> [!WARNING]
+> 统计卡片请使用 **GitHub Stats Extended**（`github-stats-extended.vercel.app`）。
+> 旧的 `github-readme-stats.vercel.app` 已停止维护，公共实例不可用。
+
+| 组件 | 服务域名 | 开源仓库 |
+|------|----------|----------|
+| GitHub Stats / Top Langs / WakaTime / Pin / Gist | github-stats-extended.vercel.app | [stats-organization/github-stats-extended](https://github.com/stats-organization/github-stats-extended) |
+| github-readme-stats（旧，已停维护） | github-readme-stats.vercel.app | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) |
 | Streak | streak-stats.demolab.com | [DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) |
 | Activity Graph | vercel.app | [Ashutosh00710/github-readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph) |
 | Typing SVG | demolab.com | [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) |
@@ -414,18 +444,26 @@ pie title 本月语言分布
 
 ---
 
-## 19. 公共 API 限流注意
+## 19. 公共 API 限流与自建
 
 - 大部分服务免费但有缓存（5–30 分钟）
 - 高频访问可能触发 429，稍等即可
-- 想稳定展示自己的私有仓库数据，可自建 `github-readme-stats` 实例（Vercel 一键部署）
+- 需要统计私有仓库或更稳定时，可自建 **GitHub Stats Extended** 实例（Vercel 部署）
+- 可视化配置：https://github-stats-extended.vercel.app/frontend
 
 自建步骤简述：
 
-1. Fork [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+1. Fork [stats-organization/github-stats-extended](https://github.com/stats-organization/github-stats-extended)
 2. 部署到 Vercel
-3. 在 Vercel 环境变量中添加 `PAT_1`（你的 GitHub Token，权限勾选 `repo` / `read:user`）
-4. 把图片 URL 中的 `github-readme-stats.vercel.app` 换成你的部署域名
+3. 在 Vercel 环境变量中添加 GitHub Token（权限按文档勾选 `repo` / `read:user` 等）
+4. 把图片 URL 中的 `github-stats-extended.vercel.app` 换成你的部署域名
+
+从旧版迁移：
+
+```diff
+- https://github-readme-stats.vercel.app/api?username=octocat&theme=radical
++ https://github-stats-extended.vercel.app/api?username=octocat&theme=radical
+```
 
 ---
 

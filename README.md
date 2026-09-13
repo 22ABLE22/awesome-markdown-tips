@@ -176,17 +176,27 @@ shields.io 不原生支持渐变，可用：
 
 ## 2. 动态统计卡片
 
-### 2.1 GitHub Stats（最流行）
+> [!IMPORTANT]
+> 旧服务 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)（域名 `github-readme-stats.vercel.app`）已停止维护、公共实例不可用。
+> 现请使用官方继任项目 **[GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended)**，域名改为：
+>
+> ```
+> https://github-stats-extended.vercel.app
+> ```
+>
+> 参数与旧版高度兼容，迁移只需替换域名。可视化配置见 [Card Wizard](https://github-stats-extended.vercel.app/frontend)。
 
-来自 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+### 2.1 GitHub Stats 主卡片
+
+来自 [GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended)
 
 ```markdown
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=22ABLE22&show_icons=true&theme=radical)
+[![GitHub stats](https://github-stats-extended.vercel.app/api?username=22ABLE22&show_icons=true&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 ```
 
 效果（把 `22ABLE22` 换成你的）：
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=github&show_icons=true&theme=radical)
+[![GitHub stats](https://github-stats-extended.vercel.app/api?username=github&show_icons=true&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 
 #### 主题列表
 
@@ -204,6 +214,20 @@ shields.io 不原生支持渐变，可用：
 | `ayu-mirage` | `midnight-purple` | `calm` |
 | `omni` | `react` | `jolly` |
 | `github_dark` | `github_dark_dimmed` | `transparent` |
+| `light_github` | `dark_github` | `light_github_repocard` |
+| `dark_github_repocard` | | |
+
+推荐适配深浅色自动切换：
+
+```markdown
+<picture>
+  <source
+    srcset="https://github-stats-extended.vercel.app/api?username=22ABLE22&theme=dark_github"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img src="https://github-stats-extended.vercel.app/api?username=22ABLE22&theme=light_github" alt="GitHub stats" />
+</picture>
+```
 
 #### 常用参数
 
@@ -212,8 +236,9 @@ shields.io 不原生支持渐变，可用：
 &hide_border=true         # 隐藏边框
 &hide_title=true          # 隐藏标题
 &hide_rank=true           # 隐藏排名
+&rank_icon=github         # 排名图标样式（github / default）
 &include_all_commits=true # 统计全部提交
-&count_private=true       # 统计私有仓库（需 PAT）
+&count_private=true       # 统计私有仓库（需部署时配置 PAT）
 &bg_color=0D1117          # 自定义背景
 &title_color=39C5BB       # 标题色
 &icon_color=39C5BB        # 图标色
@@ -222,15 +247,18 @@ shields.io 不原生支持渐变，可用：
 &ring_color=39C5BB        # 排名环颜色
 &layout=compact           # 紧凑布局
 &custom_title=My Stats    # 自定义标题
+&disable_animations=true  # 关闭动画
+&number_format=long       # 数字格式（long / short）
+&show=prs_merged_percentage,prs_reviewed  # 额外显示项
 ```
 
 ### 2.2 Top Languages 语言占比
 
 ```markdown
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=22ABLE22&layout=compact&theme=radical)
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=22ABLE22&layout=compact&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 ```
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=github&layout=compact&theme=radical)
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=github&layout=compact&theme=radical)](https://github.com/stats-organization/github-stats-extended)
 
 参数：
 
@@ -248,17 +276,29 @@ shields.io 不原生支持渐变，可用：
 需要绑定 [WakaTime](https://wakatime.com)：
 
 ```markdown
-[![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=22ABLE22&theme=radical)](https://wakatime.com/@22ABLE22)
+[![WakaTime](https://github-stats-extended.vercel.app/api/wakatime?username=22ABLE22&theme=radical)](https://wakatime.com/@22ABLE22)
 ```
 
-### 2.4 Profile Summary Card
+### 2.4 仓库 / Gist 置顶卡片
+
+超出 GitHub 原生 6 个 Pin 限制时，可用卡片形式展示更多仓库或 Gist：
+
+```markdown
+<!-- 仓库卡片 -->
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=22ABLE22&repo=awesome-markdown-tips&theme=radical)](https://github.com/22ABLE22/awesome-markdown-tips)
+
+<!-- Gist 卡片 -->
+[![Gist Card](https://github-stats-extended.vercel.app/api/gist?id=YOUR_GIST_ID&theme=radical)](https://gist.github.com/YOUR_GIST_ID)
+```
+
+### 2.5 Profile Summary Card（第三方补充）
 
 ```markdown
 [![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=22ABLE22&theme=radical)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=22ABLE22&theme=radical)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 ```
 
-### 2.5 GitHub Activity Graph 活跃图
+### 2.6 GitHub Activity Graph 活跃图
 
 ```markdown
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=22ABLE22&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
@@ -266,7 +306,7 @@ shields.io 不原生支持渐变，可用：
 
 主题：`react` / `react-dark` / `github` / `github-compact` / `xcode` / `rogue` / `toastedmarshmallow` 等
 
-### 2.6 Streak Stats 连续提交
+### 2.7 Streak Stats 连续提交
 
 ```markdown
 [![GitHub Streak](https://streak-stats.demolab.com?user=22ABLE22&theme=radical)](https://git.io/streak-stats)
@@ -751,9 +791,9 @@ GitHub 会根据标题自动生成锚点：
 
 ### 📊 GitHub Stats
 
-![Alice's GitHub stats](https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=radical)
+![Alice's GitHub stats](https://github-stats-extended.vercel.app/api?username=alice&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alice&layout=compact&theme=radical)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=alice&layout=compact&theme=radical)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=alice&theme=radical)](https://git.io/streak-stats)
 
@@ -826,7 +866,8 @@ print(hello("world"))
 |------|------|------|
 | Shields.io | 徽章 | https://shields.io |
 | Simple Icons | 品牌 logo | https://simpleicons.org |
-| github-readme-stats | 统计卡片 | https://github.com/anuraghazra/github-readme-stats |
+| GitHub Stats Extended | 统计卡片（官方继任） | https://github.com/stats-organization/github-stats-extended |
+| github-readme-stats（已停维护） | 旧统计卡片 | https://github.com/anuraghazra/github-readme-stats |
 | streak-stats | 连续提交 | https://github.com/DenverCoder1/github-readme-streak-stats |
 | github-readme-activity-graph | 活跃图 | https://github.com/Ashutosh00710/github-readme-activity-graph |
 | readme-typing-svg | 打字机 | https://github.com/DenverCoder1/readme-typing-svg |

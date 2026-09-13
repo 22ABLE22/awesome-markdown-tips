@@ -475,7 +475,7 @@ assignees: ""
 ## 小结：最值得记住的 10 条
 
 1. **Shields.io** 一条 URL 就能出徽章，记得 `style` 和 `logo` 参数
-2. **github-readme-stats** 三件套：stats / top-langs / streak
+2. **GitHub Stats Extended** 三件套：stats / top-langs / streak（域名 `github-stats-extended.vercel.app`）
 3. **star-history** 一行代码画出 Star 折线图
 4. **`<details>` 折叠** 前后必须空行
 5. **skillicons.dev** 一行摆出整排技术图标

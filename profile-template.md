@@ -4,6 +4,10 @@
 
 > 仓库名必须与你的 GitHub 用户名完全一致，GitHub 才会把它展示在个人主页。
 
+> [!IMPORTANT]
+> 统计卡片域名请使用 `https://github-stats-extended.vercel.app`（[GitHub Stats Extended](https://github.com/stats-organization/github-stats-extended)）。
+> 旧的 `github-readme-stats.vercel.app` 已停止维护。
+
 ---
 
 ## 模板 A · 简洁专业风
@@ -34,9 +38,9 @@
 
 ## GitHub Stats
 
-![Alice's GitHub stats](https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=radical&hide_border=true)
+![Alice's GitHub stats](https://github-stats-extended.vercel.app/api?username=alice&show_icons=true&theme=radical&hide_border=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alice&layout=compact&theme=radical&hide_border=true)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=alice&layout=compact&theme=radical&hide_border=true)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=alice&theme=radical&hide_border=true)](https://git.io/streak-stats)
 
@@ -66,7 +70,7 @@
 
 **Stats:**
 
-![stats](https://github-readme-stats.vercel.app/api?username=alice&hide=contribs,prs&show_icons=true&theme=github_dark)
+![stats](https://github-stats-extended.vercel.app/api?username=alice&hide=contribs,prs&show_icons=true&theme=github_dark)
 
 **Connect:** [Email](mailto:alice@example.com) · [LinkedIn](https://linkedin.com/in/alice) · [Twitter](https://twitter.com/alice)
 ```
@@ -106,8 +110,8 @@
 ### 📊 Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alice&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api?username=alice&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=alice&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 ### 🛠️ Tools
@@ -141,7 +145,7 @@
 
 | 组件 | 关键参数 |
 |------|----------|
-| github-readme-stats | `theme` `show_icons` `hide_border` `layout` `hide` `hide_rank` |
+| github-stats-extended | `theme` `show_icons` `hide_border` `layout` `hide` `hide_rank` `rank_icon` `number_format` `disable_animations` |
 | streak-stats | `theme` `hide_border` `date_format` `locale` |
 | activity-graph | `theme` `hide_border` `bg_color` `color` `line` `point` |
 | typing-svg | `font` `size` `color` `duration` `pause` `lines` |
@@ -154,7 +158,7 @@
 
 ## 可用主题名
 
-### github-readme-stats / streak-stats
+### github-stats-extended / streak-stats
 
 ```
 dark · radical · merko · gruvbox · tokyonight · onedark · cobalt
@@ -180,7 +184,7 @@ tokyonight · one-dark · rose-pine · blue · purple · halloween
 ## 换肤示例：把主题换成 tokyonight
 
 ```markdown
-![stats](https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=tokyonight&hide_border=true)
+![stats](https://github-stats-extended.vercel.app/api?username=alice&show_icons=true&theme=tokyonight&hide_border=true)
 ```
 
 把 `theme=radical` 改成任意主题名即可，其他组件同理。
