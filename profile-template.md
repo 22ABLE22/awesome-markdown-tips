@@ -1,12 +1,15 @@
-﻿# 涓汉 Profile README 蹇€熸ā鏉?
-鎶婃湰鏂囦欢鍐呭澶嶅埗鍒颁綘鐨?**`username/username`** 浠撳簱鐨?`README.md`锛屽氨鑳芥墦閫犱釜浜轰富椤点€?
-> 浠撳簱鍚嶅繀椤讳笌浣犵殑 GitHub 鐢ㄦ埛鍚嶅畬鍏ㄤ竴鑷达紝GitHub 鎵嶄細鎶婂畠灞曠ず鍦ㄤ釜浜轰富椤点€?
+# 个人 Profile README 快速模板
+
+把本文件内容复制到你的 **`username/username`** 仓库的 `README.md`，就能打造个人主页。
+
+> 仓库名必须与你的 GitHub 用户名完全一致，GitHub 才会把它展示在个人主页。
+
 ---
 
-## 妯℃澘 A 路 绠€娲佷笓涓氶
+## 模板 A · 简洁专业风
 
 ```markdown
-# Hi, I'm Alice 馃憢
+# Hi, I'm Alice 👋
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3200&pause=900&color=39C5BB&center=true&vCenter=true&lines=Software+Engineer;Open+Source+Lover)](https://git.io/typing-svg)
 
@@ -20,10 +23,10 @@
 
 ## About Me
 
-- 馃敪 Currently building cool stuff with **Python & React**
-- 馃尡 Learning **Rust** and **LLM Ops**
-- 馃挰 Ask me about anything related to web & AI
-- 鈿?Fun fact: I debug with print()
+- 🔭 Currently building cool stuff with **Python & React**
+- 🌱 Learning **Rust** and **LLM Ops**
+- 💬 Ask me about anything related to web & AI
+- ⚡ Fun fact: I debug with print()
 
 ## Tech Stack
 
@@ -52,11 +55,12 @@
 
 ---
 
-## 妯℃澘 B 路 鏋佺畝椋?
+## 模板 B · 极简风
+
 ```markdown
 # Alice
 
-> Software Engineer 路 Open Source
+> Software Engineer · Open Source
 
 **Skills:** `Python` `TypeScript` `React` `Docker` `PostgreSQL`
 
@@ -64,23 +68,24 @@
 
 ![stats](https://github-readme-stats.vercel.app/api?username=alice&hide=contribs,prs&show_icons=true&theme=github_dark)
 
-**Connect:** [Email](mailto:alice@example.com) 路 [LinkedIn](https://linkedin.com/in/alice) 路 [Twitter](https://twitter.com/alice)
+**Connect:** [Email](mailto:alice@example.com) · [LinkedIn](https://linkedin.com/in/alice) · [Twitter](https://twitter.com/alice)
 ```
 
 ---
 
-## 妯℃澘 C 路 鍗＄墖鍒嗗尯椋?
+## 模板 C · 卡片分区风
+
 ```markdown
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:39C5BB&height=220&section=header&text=Alice&fontSize=60&fontColor=ffffff&desc=Full-stack%20Developer&descSize=22&descAlignY=50&descColor=d4d4d4" />
 </div>
 
-### 馃敟 Featured Projects
+### 🔥 Featured Projects
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center"><a href="https://github.com/alice/project-a">馃殌 Project A</a></h3>
+      <h3 align="center"><a href="https://github.com/alice/project-a">🚀 Project A</a></h3>
       <p align="center">A short one-liner describing Project A</p>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3.10+-blue" />
@@ -88,7 +93,7 @@
       </p>
     </td>
     <td width="50%">
-      <h3 align="center"><a href="https://github.com/alice/project-b">鈿?Project B</a></h3>
+      <h3 align="center"><a href="https://github.com/alice/project-b">⚡ Project B</a></h3>
       <p align="center">A short one-liner describing Project B</p>
       <p align="center">
         <img src="https://img.shields.io/badge/TypeScript-5.x-blue" />
@@ -98,14 +103,14 @@
   </tr>
 </table>
 
-### 馃搳 Stats
+### 📊 Stats
 
 <div align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alice&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
-### 馃洜锔?Tools
+### 🛠️ Tools
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,python,django,docker,aws,postgres,redis,git,vscode,linux&perline=6" />
@@ -118,16 +123,23 @@
 
 ---
 
-## 浣跨敤姝ラ
+## 使用步骤
 
-1. 鍦?GitHub 鏂板缓涓€涓?**Public** 浠撳簱锛屽悕瀛?= 浣犵殑鐢ㄦ埛鍚?2. 鍕鹃€?**Add a README file**锛堟垨鎵嬪姩鍒涘缓锛?3. 鎶婁笂闈换閫変竴涓ā鏉跨矘璐磋繘鍘?4. 鍏ㄥ眬鏇挎崲锛?   - `alice` 鈫?浣犵殑 GitHub 鐢ㄦ埛鍚?   - `Alice` 鈫?浣犵殑鏄剧ず鍚?   - `alice@example.com` 鈫?浣犵殑閭
-   - 閾炬帴 鈫?浣犵殑绀句氦鍦板潃
-5. Commit & enjoy 鉁?
+1. 在 GitHub 新建一个 **Public** 仓库，名字 = 你的用户名
+2. 勾选 **Add a README file**（或手动创建）
+3. 把上面任选一个模板粘贴进去
+4. 全局替换：
+   - `alice` → 你的 GitHub 用户名
+   - `Alice` → 你的显示名
+   - `alice@example.com` → 你的邮箱
+   - 链接 → 你的社交地址
+5. Commit 即可
+
 ---
 
-## 甯哥敤鍙傛暟閫熸煡
+## 常用参数速查
 
-| 缁勪欢 | 鍏抽敭鍙傛暟 |
+| 组件 | 关键参数 |
 |------|----------|
 | github-readme-stats | `theme` `show_icons` `hide_border` `layout` `hide` `hide_rank` |
 | streak-stats | `theme` `hide_border` `date_format` `locale` |
@@ -135,39 +147,40 @@
 | typing-svg | `font` `size` `color` `duration` `pause` `lines` |
 | capsule-render | `type` `color` `height` `section` `text` `fontSize` |
 | profile-trophy | `theme` `no-frame` `no-bg` `margin-w` `column` |
-| skillicons | `i`锛堝浘鏍囧垪琛級`perline` |
+| skillicons | `i`（图标列表）`perline` |
 | komarev | `username` `color` `style` `label` |
 
 ---
 
-## 鍙敤涓婚鍚?
+## 可用主题名
+
 ### github-readme-stats / streak-stats
 
 ```
-dark 路 radical 路 merko 路 gruvbox 路 tokyonight 路 onedark 路 cobalt
-synthwave 路 highcontrast 路 dracula 路 prussian 路 monokai 路 vue
-vue-dark 路 shades-of-purple 路 nightowl 路 buefy 路 blue-green
-algolia 路 great-gatsby 路 darcula 路 bear 路 solarized-dark
-solarized-light 路 gotham 路 material-palenight 路 graywhite
-ayu-mirage 路 midnight-purple 路 calm 路 omni 路 react 路 jolly
-github 路 github_dark 路 github_dark_dimmed 路 transparent
+dark · radical · merko · gruvbox · tokyonight · onedark · cobalt
+synthwave · highcontrast · dracula · prussian · monokai · vue
+vue-dark · shades-of-purple · nightowl · buefy · blue-green
+algolia · great-gatsby · darcula · bear · solarized-dark
+solarized-light · gotham · material-palenight · graywhite
+ayu-mirage · midnight-purple · calm · omni · react · jolly
+github · github_dark · github_dark_dimmed · transparent
 ```
 
 ### activity-graph
 
 ```
-react 路 react-dark 路 github 路 github-compact 路 xcode 路 rogue
-toastedmarshmallow 路 nord 路 dracula 路 monokai 路 solarized
-solarized-dark 路 summer-warmth 路 gruvbox 路 gruvbox-material
-tokyonight 路 one-dark 路 rose-pine 路 blue 路 purple 路 halloween
+react · react-dark · github · github-compact · xcode · rogue
+toastedmarshmallow · nord · dracula · monokai · solarized
+solarized-dark · summer-warmth · gruvbox · gruvbox-material
+tokyonight · one-dark · rose-pine · blue · purple · halloween
 ```
 
 ---
 
-## 鎹㈣偆绀轰緥锛氭妸涓婚鎹㈡垚 tokyonight
+## 换肤示例：把主题换成 tokyonight
 
 ```markdown
 ![stats](https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=tokyonight&hide_border=true)
 ```
 
-鎶?`theme=radical` 鏀规垚浠绘剰涓婚鍚嶅嵆鍙紝鍏朵粬缁勪欢鍚岀悊銆?
+把 `theme=radical` 改成任意主题名即可，其他组件同理。

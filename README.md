@@ -1,66 +1,70 @@
-﻿# Markdown 缇庡寲鎸囧崡 路 Awesome Markdown Tips
+# Markdown 美化指南 · Awesome Markdown Tips
 
 [![GitHub stars](https://img.shields.io/github/stars/22ABLE22/awesome-markdown-tips?style=social)](https://github.com/22ABLE22/awesome-markdown-tips/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/22ABLE22/awesome-markdown-tips?style=social)](https://github.com/22ABLE22/awesome-markdown-tips/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/22ABLE22/awesome-markdown-tips?style=social)](https://github.com/22ABLE22/awesome-markdown-tips/watchers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 涓€浠藉彲鐩存帴澶嶅埗绮樿创鐨?GitHub Markdown 缇庡寲閫熸煡琛細寰界珷銆佺粺璁″崱鐗囥€佹姌绾垮浘銆佸浘鏍囥€佹姌鍙犲潡銆佽〃鏍笺€侀珮浜潡鈥︹€︿竴缃戞墦灏姐€?
+> 一份可直接复制粘贴的 GitHub Markdown 美化速查表：徽章、统计卡片、折线图、图标、折叠块、表格、高亮块……一网打尽。
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=39C5BB&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Hello%2C+GitHub!;Welcome+to+Markdown+Tips;Star+this+repo+if+helpful" alt="Typing SVG" />
 </p>
 
 ---
 
-## 鐩綍
+## 目录
 
-- [1. Shields.io 寰界珷](#1-shieldsio-寰界珷)
-- [2. 鍔ㄦ€佺粺璁″崱鐗嘳(#2-鍔ㄦ€佺粺璁″崱鐗?
-- [3. Star 鍘嗗彶鎶樼嚎鍥綸(#3-star-鍘嗗彶鎶樼嚎鍥?
-- [4. 璁垮璁℃暟鍣╙(#4-璁垮璁℃暟鍣?
-- [5. 鎵撳瓧鏈?/ 鏍囬鍔ㄦ晥](#5-鎵撳瓧鏈?-鏍囬鍔ㄦ晥)
-- [6. 鎶€鏈爤鍥炬爣](#6-鎶€鏈爤鍥炬爣)
-- [7. Markdown 缁撴瀯鎶€宸(#7-markdown-缁撴瀯鎶€宸?
-- [8. 楂樹寒寮曠敤鍧梋(#8-楂樹寒寮曠敤鍧?
-- [9. 杩涘害鏉′笌鐧惧垎姣擼(#9-杩涘害鏉′笌鐧惧垎姣?
-- [10. 浠ｇ爜楂樹寒涓庢姌鍙燷(#10-浠ｇ爜楂樹寒涓庢姌鍙?
-- [11. 琛ㄦ牸杩涢樁](#11-琛ㄦ牸杩涢樁)
-- [12. 鐩綍閿氱偣鎶€宸(#12-鐩綍閿氱偣鎶€宸?
-- [13. 澶嶅埗鍗崇敤妯℃澘](#13-澶嶅埗鍗崇敤妯℃澘)
-- [14. 鍙傝€冭祫婧怾(#14-鍙傝€冭祫婧?
+- [1. Shields.io 徽章](#1-shieldsio-徽章)
+- [2. 动态统计卡片](#2-动态统计卡片)
+- [3. Star 历史折线图](#3-star-历史折线图)
+- [4. 访客计数器](#4-访客计数器)
+- [5. 打字机 / 标题动效](#5-打字机--标题动效)
+- [6. 技术栈图标](#6-技术栈图标)
+- [7. Markdown 结构技巧](#7-markdown-结构技巧)
+- [8. 高亮引用块](#8-高亮引用块)
+- [9. 进度条与百分比](#9-进度条与百分比)
+- [10. 代码高亮与折叠](#10-代码高亮与折叠)
+- [11. 表格进阶](#11-表格进阶)
+- [12. 目录锚点技巧](#12-目录锚点技巧)
+- [13. 复制即用模板](#13-复制即用模板)
+- [14. 参考资源](#14-参考资源)
 
 ---
 
-## 1. Shields.io 寰界珷
+## 1. Shields.io 徽章
 
-鏈€甯哥敤鐨勫窘绔犳湇鍔★細[shields.io](https://shields.io)
+最常用的徽章服务：[shields.io](https://shields.io)
 
-### 1.1 闈欐€佸窘绔?
+### 1.1 静态徽章
+
 ```markdown
 ![Static Badge](https://img.shields.io/badge/Python-%3E%3D3.10-blue)
 ![Static Badge](https://img.shields.io/badge/Status-Stable-brightgreen)
 ![Static Badge](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 ```
 
-鏁堟灉锛?
+效果：
+
 ![Static Badge](https://img.shields.io/badge/Python-%3E%3D3.10-blue)
 ![Static Badge](https://img.shields.io/badge/Status-Stable-brightgreen)
 ![Static Badge](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
-### 1.2 鐐瑰嚮璺宠浆寰界珷
+### 1.2 点击跳转徽章
 
 ```markdown
 [![Python](https://img.shields.io/badge/Python-%3E%3D3.10-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ```
 
-鏁堟灉锛?
+效果：
+
 [![Python](https://img.shields.io/badge/Python-%3E%3D3.10-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-### 1.3 甯哥敤棰滆壊
+### 1.3 常用颜色
 
-| 棰滆壊鍚?| 绀轰緥 | 鍗佸叚杩涘埗 |
+| 颜色名 | 示例 | 十六进制 |
 |--------|------|----------|
 | `blue` | ![](https://img.shields.io/badge/blue-blue) | `#007ec6` |
 | `brightgreen` | ![](https://img.shields.io/badge/brightgreen-brightgreen) | `#4c1` |
@@ -75,14 +79,17 @@
 | `informational` | ![](https://img.shields.io/badge/informational-informational) | `#007ec6` |
 | `inactive` | ![](https://img.shields.io/badge/inactive-inactive) | `#9f9f9f` |
 
-涔熸敮鎸佽嚜瀹氫箟棰滆壊锛歚https://img.shields.io/badge/label-message-39C5BB`
+也支持自定义颜色：`https://img.shields.io/badge/label-message-39C5BB`
 
-### 1.4 甯哥敤椋庢牸 Style
+### 1.4 常用风格 Style
 
 ```
-?style=flat          # 榛樿
-?style=flat-square   # 鐩磋
-?style=plastic       # 濉戞枡绔嬩綋鎰??style=for-the-badge # 澶у啓澶у窘绔??style=social        # 绀句氦椋庢牸锛堥€傚悎 stars/followers锛?```
+?style=flat          # 默认
+?style=flat-square   # 直角
+?style=plastic       # 塑料立体感
+?style=for-the-badge # 大写大徽章
+?style=social        # 社交风格（适合 stars/followers）
+```
 
 ```markdown
 ![flat](https://img.shields.io/badge/style-flat-39C5BB?style=flat)
@@ -92,29 +99,31 @@
 ![social](https://img.shields.io/badge/style-social-39C5BB?style=social)
 ```
 
-鏁堟灉锛?
+效果：
+
 ![flat](https://img.shields.io/badge/style-flat-39C5BB?style=flat)
 ![flat-square](https://img.shields.io/badge/style-flat--square-39C5BB?style=flat-square)
 ![plastic](https://img.shields.io/badge/style-plastic-39C5BB?style=plastic)
 ![for-the-badge](https://img.shields.io/badge/STYLE-FOR--THE--BADGE-39C5BB?style=for-the-badge)
 ![social](https://img.shields.io/badge/style-social-39C5BB?style=social)
 
-### 1.5 鍔ㄦ€佸窘绔狅紙鑷姩璇诲彇浠撳簱淇℃伅锛?
+### 1.5 动态徽章（自动读取仓库信息）
+
 ```markdown
-![GitHub release](https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips)
-![GitHub license](https://img.shields.io/github/license/22ABLE22/awesome-markdown-tips)
-![GitHub last commit](https://img.shields.io/github/last-commit/22ABLE22/awesome-markdown-tips)
-![GitHub issues](https://img.shields.io/github/issues/22ABLE22/awesome-markdown-tips)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/22ABLE22/awesome-markdown-tips)
-![GitHub repo size](https://img.shields.io/github/repo-size/22ABLE22/awesome-markdown-tips)
-![GitHub code size](https://img.shields.io/github/languages/code-size/22ABLE22/awesome-markdown-tips)
-![GitHub stars](https://img.shields.io/github/stars/22ABLE22/awesome-markdown-tips?style=social)
-![GitHub forks](https://img.shields.io/github/forks/22ABLE22/awesome-markdown-tips?style=social)
-![GitHub language count](https://img.shields.io/github/languages/count/22ABLE22/awesome-markdown-tips)
-![Top language](https://img.shields.io/github/languages/top/22ABLE22/awesome-markdown-tips)
+![GitHub release](https://img.shields.io/github/v/release/OWNER/REPO)
+![GitHub license](https://img.shields.io/github/license/OWNER/REPO)
+![GitHub last commit](https://img.shields.io/github/last-commit/OWNER/REPO)
+![GitHub issues](https://img.shields.io/github/issues/OWNER/REPO)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/OWNER/REPO)
+![GitHub repo size](https://img.shields.io/github/repo-size/OWNER/REPO)
+![GitHub code size](https://img.shields.io/github/languages/code-size/OWNER/REPO)
+![GitHub stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)
+![GitHub forks](https://img.shields.io/github/forks/OWNER/REPO?style=social)
+![GitHub language count](https://img.shields.io/github/languages/count/OWNER/REPO)
+![Top language](https://img.shields.io/github/languages/top/OWNER/REPO)
 ```
 
-### 1.6 骞冲彴 / 宸ュ叿寰界珷
+### 1.6 平台 / 工具徽章
 
 ```markdown
 ![npm](https://img.shields.io/npm/v/react)
@@ -126,9 +135,10 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/username)
 ```
 
-### 1.7 鑷畾涔?Logo 寰界珷
+### 1.7 自定义 Logo 徽章
 
-鍦?URL 鍚庡姞 `&logo=鍚嶇О`锛?
+在 URL 后加 `&logo=名称`：
+
 ```markdown
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -140,7 +150,8 @@
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ```
 
-鏁堟灉锛?
+效果：
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -148,11 +159,12 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-瀹屾暣 logo 鍒楄〃瑙侊細[simpleicons.org](https://simpleicons.org/)
+完整 logo 列表见：[simpleicons.org](https://simpleicons.org/)
 
-### 1.8 棰滆壊娓愬彉 / 澶氳壊锛堥渶绗笁鏂癸級
+### 1.8 第三方徽章服务
 
-shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
+shields.io 不原生支持渐变，可用：
+
 - [badgen.net](https://badgen.net)
 - [flat-badges](https://github.com/bokub/flat-badges)
 
@@ -162,21 +174,23 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 
 ---
 
-## 2. 鍔ㄦ€佺粺璁″崱鐗?
-### 2.1 GitHub Stats锛堟渶娴佽锛?
-鏉ヨ嚜 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+## 2. 动态统计卡片
+
+### 2.1 GitHub Stats（最流行）
+
+来自 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 
 ```markdown
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=22ABLE22&show_icons=true&theme=radical)
 ```
 
-鏁堟灉锛堟妸 `22ABLE22` 鎹㈡垚浣犵殑锛夛細
+效果（把 `22ABLE22` 换成你的）：
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=github&show_icons=true&theme=radical)
 
-#### 涓婚鍒楄〃
+#### 主题列表
 
-| 涓婚鍚?| 涓婚鍚?| 涓婚鍚?|
+| 主题名 | 主题名 | 主题名 |
 |--------|--------|--------|
 | `dark` | `radical` | `merko` |
 | `gruvbox` | `tokyonight` | `onedark` |
@@ -191,18 +205,26 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 | `omni` | `react` | `jolly` |
 | `github_dark` | `github_dark_dimmed` | `transparent` |
 
-#### 甯哥敤鍙傛暟
+#### 常用参数
 
 ```
-&show_icons=true          # 鏄剧ず鍥炬爣
-&hide_border=true         # 闅愯棌杈规
-&hide_title=true          # 闅愯棌鏍囬
-&hide_rank=true           # 闅愯棌鎺掑悕
-&include_all_commits=true # 缁熻鍏ㄩ儴鎻愪氦
-&count_private=true       # 缁熻绉佹湁浠撳簱锛堥渶 PAT锛?&bg_color=0D1117          # 鑷畾涔夎儗鏅?&title_color=39C5BB       # 鏍囬鑹?&icon_color=39C5BB        # 鍥炬爣鑹?&text_color=C9D1D9        # 鏂囧瓧鑹?&border_color=30363D      # 杈规鑹?&ring_color=39C5BB        # 鎺掑悕鐜鑹?&layout=compact           # 绱у噾甯冨眬
-&custom_title=My Stats    # 鑷畾涔夋爣棰?```
+&show_icons=true          # 显示图标
+&hide_border=true         # 隐藏边框
+&hide_title=true          # 隐藏标题
+&hide_rank=true           # 隐藏排名
+&include_all_commits=true # 统计全部提交
+&count_private=true       # 统计私有仓库（需 PAT）
+&bg_color=0D1117          # 自定义背景
+&title_color=39C5BB       # 标题色
+&icon_color=39C5BB        # 图标色
+&text_color=C9D1D9        # 文字色
+&border_color=30363D      # 边框色
+&ring_color=39C5BB        # 排名环颜色
+&layout=compact           # 紧凑布局
+&custom_title=My Stats    # 自定义标题
+```
 
-### 2.2 Top Languages 璇█鍗犳瘮
+### 2.2 Top Languages 语言占比
 
 ```markdown
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=22ABLE22&layout=compact&theme=radical)
@@ -210,17 +232,21 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=github&layout=compact&theme=radical)
 
-鍙傛暟锛?
+参数：
+
 ```
-&layout=compact           # 绱у噾锛堥粯璁?card锛?&langs_count=8            # 鏄剧ず璇█鏁伴噺锛堥粯璁?5锛?&hide=html,css            # 闅愯棌鏌愪簺璇█
-&exclude_repo=repo1,repo2 # 鎺掗櫎浠撳簱
-&size_weight=0.5          # 鎸変唬鐮侀噺鍔犳潈
-&count_weight=0.5         # 鎸夋彁浜ゆ暟鍔犳潈
+&layout=compact           # 紧凑（默认 card）
+&langs_count=8            # 显示语言数量（默认 5）
+&hide=html,css            # 隐藏某些语言
+&exclude_repo=repo1,repo2 # 排除仓库
+&size_weight=0.5          # 按代码量加权
+&count_weight=0.5         # 按提交数加权
 ```
 
-### 2.3 Wakatime 缂栫▼鏃堕暱
+### 2.3 Wakatime 编程时长
 
-闇€瑕佺粦瀹?[WakaTime](https://wakatime.com)锛?
+需要绑定 [WakaTime](https://wakatime.com)：
+
 ```markdown
 [![WakaTime](https://github-readme-stats.vercel.app/api/wakatime?username=22ABLE22&theme=radical)](https://wakatime.com/@22ABLE22)
 ```
@@ -232,13 +258,15 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 [![Profile Summary Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=22ABLE22&theme=radical)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 ```
 
-### 2.5 GitHub Activity Graph 娲昏穬鍥?
+### 2.5 GitHub Activity Graph 活跃图
+
 ```markdown
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=22ABLE22&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=22ABLE22&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 ```
 
-涓婚锛歚react` / `react-dark` / `github` / `github-compact` / `xcode` / `rogue` / `toastedmarshmallow` 绛?
-### 2.6 Streak Stats 杩炵画鎻愪氦
+主题：`react` / `react-dark` / `github` / `github-compact` / `xcode` / `rogue` / `toastedmarshmallow` 等
+
+### 2.6 Streak Stats 连续提交
 
 ```markdown
 [![GitHub Streak](https://streak-stats.demolab.com?user=22ABLE22&theme=radical)](https://git.io/streak-stats)
@@ -248,65 +276,75 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 
 ---
 
-## 3. Star 鍘嗗彶鎶樼嚎鍥?
-### 3.1 Star History锛堟帹鑽愶級
+## 3. Star 历史折线图
+
+### 3.1 Star History（推荐）
 
 ```markdown
 [![Star History Chart](https://api.star-history.com/svg?repos=22ABLE22/awesome-markdown-tips&type=Date)](https://star-history.com/#22ABLE22/awesome-markdown-tips&Date)
 ```
 
-### 3.2 瀵规瘮澶氫釜浠撳簱
+### 3.2 对比多个仓库
 
 ```markdown
 [![Star History Chart](https://api.star-history.com/svg?repos=facebook/react,vuejs/core&type=Date)](https://star-history.com/#facebook/react&vuejs/core&Date)
 ```
 
-### 3.3 鍏朵粬鍥捐〃鏈嶅姟
+### 3.3 其他图表服务
 
 ```markdown
-<!-- Chart.js 椋庢牸锛坮epobeats锛?-->
+<!-- RepoBeats -->
 [![RepoBeats](https://repobeats.axiom.co/api/embed/22ABLE22/awesome-markdown-tips.svg)](https://repobeats.axiom.co)
 ```
 
-### 3.4 璐＄尞鑰呭浘鐗囧
+### 3.4 贡献者图片墙
 
 ```markdown
 [![Contributors](https://contrib.rocks/image?repo=22ABLE22/awesome-markdown-tips)](https://github.com/22ABLE22/awesome-markdown-tips/graphs/contributors)
 ```
 
-鍙傛暟锛?
+参数：
+
 ```
-?max=21          # 鏈€澶氭樉绀轰汉鏁?&anon=true       # 鏄剧ず鍖垮悕璐＄尞鑰?```
+?max=21          # 最多显示人数
+&anon=true       # 显示匿名贡献者
+```
 
 ---
 
-## 4. 璁垮璁℃暟鍣?
-### 4.1 Profile Views锛堢ぞ鍖虹増锛?
+## 4. 访客计数器
+
+### 4.1 Profile Views（社区版）
+
 ```markdown
 ![Profile views](https://komarev.com/ghpvc/?username=22ABLE22&color=brightgreen)
 ```
 
 ![Profile views](https://komarev.com/ghpvc/?username=github&color=brightgreen)
 
-鍙傛暟锛?
-```
-&color=blue|green|red|...  # 棰滆壊
-&style=flat|plastic        # 椋庢牸
-&label=Profile views       # 鑷畾涔夋爣绛?```
+参数：
 
-### 4.2 Hit Counter锛堝彟涓€鏂规锛?
+```
+&color=blue|green|red|...  # 颜色
+&style=flat|plastic        # 风格
+&label=Profile views       # 自定义标签
+```
+
+### 4.2 Hit Counter（另一方案）
+
 ```markdown
 ![Visitor Count](https://hits.sh/github.com/22ABLE22/awesome-markdown-tips.svg?color=39C5BB&label=Visitors)
 ```
 
-### 4.3 鍦ㄧ嚎浜烘暟锛圖iscord 椋庢牸锛?
+### 4.3 在线人数（Discord 风格）
+
 ```markdown
 ![Discord](https://img.shields.io/discord/SERVER_ID?label=Discord&logo=discord)
 ```
 
 ---
 
-## 5. 鎵撳瓧鏈?/ 鏍囬鍔ㄦ晥
+## 5. 打字机 / 标题动效
 
 ### 5.1 Readme Typing SVG
 
@@ -316,21 +354,22 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 </p>
 ```
 
-鍙傛暟璇存槑锛?
-| 鍙傛暟 | 璇存槑 |
+参数说明：
+
+| 参数 | 说明 |
 |------|------|
-| `font` | 瀛椾綋锛團ira Code, JetBrains Mono, Pacifico 绛夛級 |
-| `weight` | 瀛楅噸 |
-| `size` | 瀛楀彿 |
-| `duration` | 姣忚鎵撳瓧鏃堕暱 ms |
-| `pause` | 琛岄棿鍋滈】 ms |
-| `color` | 棰滆壊 hex 鎴栧悕绉?|
-| `center` | 姘村钩灞呬腑 |
-| `vCenter` | 鍨傜洿灞呬腑 |
-| `multiline` | 鏀寔澶氳 |
-| `repeat` | 寰幆鎾斁 |
-| `width` / `height` | 鐢诲竷灏哄 |
-| `lines` | 鍙ュ瓙锛岀敤 `;` 鍒嗛殧锛堥渶 URL 缂栫爜锛?|
+| `font` | 字体（Fira Code, JetBrains Mono, Pacifico 等） |
+| `weight` | 字重 |
+| `size` | 字号 |
+| `duration` | 每行打字时长 ms |
+| `pause` | 行间停顿 ms |
+| `color` | 颜色 hex 或名称 |
+| `center` | 水平居中 |
+| `vCenter` | 垂直居中 |
+| `multiline` | 支持多行 |
+| `repeat` | 循环播放 |
+| `width` / `height` | 画布尺寸 |
+| `lines` | 句子，用 `;` 分隔（需 URL 编码） |
 
 ### 5.2 Header SVG
 
@@ -340,7 +379,7 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 </p>
 ```
 
-### 5.3 Capsule Render 搴曢儴
+### 5.3 Capsule Render 底部
 
 ```markdown
 <p align="center">
@@ -348,18 +387,19 @@ shields.io 涓嶅師鐢熸敮鎸佹笎鍙橈紝鍙敤锛?
 </p>
 ```
 
-### 5.4 甯哥敤 capsule type
+### 5.4 常用 capsule type
 
 ```
-type=wave      # 娉㈡氮
-type=waving    # 鍔ㄦ€佹尝娴?type=rounded   # 鍦嗚鐭╁舰
-type=slice     # 鍒囩墖
-type=rect      # 鐭╁舰
-type=soft      # 鏌斿拰
-type=stripe    # 鏉＄汗
-type=venom     # 姣掓恫椋庢牸
+type=wave      # 波浪
+type=waving    # 动态波浪
+type=rounded   # 圆角矩形
+type=slice     # 切片
+type=rect      # 矩形
+type=soft      # 柔和
+type=stripe    # 条纹
+type=venom     # 毒液风格
 type=transparent
-type=auto      # 鑷姩
+type=auto      # 自动
 type=cylinder
 type=egg
 type=shark
@@ -368,9 +408,9 @@ type=amoled
 
 ---
 
-## 6. 鎶€鏈爤鍥炬爣
+## 6. 技术栈图标
 
-### 6.1 Skill Icons锛堟帹鑽愶級
+### 6.1 Skill Icons（推荐）
 
 [skillicons.dev](https://skillicons.dev)
 
@@ -380,7 +420,8 @@ type=amoled
 
 ![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,react,vue,nodejs,python,django,docker,git,github,vscode,linux,postgres,redis&perline=8)
 
-鍙敤鍥炬爣鍚嶇О绀轰緥锛?
+可用图标名称示例：
+
 ```
 js ts html css sass react vue nodejs nextjs express
 python django flask java spring cpp c go rust
@@ -392,7 +433,7 @@ tensorflow pytorch pandas numpy
 nginx redis firebase vercel netlify
 ```
 
-### 6.2 Shields.io + Simple Icons锛坒or-the-badge 涓€鎺掞級
+### 6.2 Shields.io + Simple Icons（for-the-badge 一排）
 
 ```markdown
 <p align="center">
@@ -415,124 +456,148 @@ nginx redis firebase vercel netlify
 
 ---
 
-## 7. Markdown 缁撴瀯鎶€宸?
-### 7.1 鎶樺彔璇︽儏锛坄<details>`锛?
+## 7. Markdown 结构技巧
+
+### 7.1 折叠详情（`<details>`）
+
 ```markdown
 <details>
-  <summary>鐐瑰嚮灞曞紑鏇村缁嗚妭</summary>
+  <summary>点击展开更多细节</summary>
 
-  杩欓噷鏄殣钘忕殑鍐呭銆?
-  - 鏀寔 Markdown
-  - 鏀寔浠ｇ爜鍧?  - 鏀寔鍥剧墖
+  这里是隐藏的内容。
+
+  - 支持 Markdown
+  - 支持代码块
+  - 支持图片
 
 </details>
 ```
 
-鏁堟灉锛?
-<details>
-  <summary>鐐瑰嚮灞曞紑鏇村缁嗚妭</summary>
+效果：
 
-  杩欓噷鏄殣钘忕殑鍐呭銆?
-  - 鏀寔 Markdown
-  - 鏀寔浠ｇ爜鍧?  - 鏀寔鍥剧墖
+<details>
+  <summary>点击展开更多细节</summary>
+
+  这里是隐藏的内容。
+
+  - 支持 Markdown
+  - 支持代码块
+  - 支持图片
 
 </details>
 
-**娉ㄦ剰锛?* `<summary>` 鍚庡繀椤荤┖涓€琛屽啀鍐欐鏂囷紝鍚﹀垯鍐呭涓嶄細姝ｇ‘娓叉煋銆?
-### 7.2 榛樿灞曞紑
+**注意：** `<summary>` 后必须空一行再写正文，否则内容不会正确渲染。
+
+### 7.2 默认展开
 
 ```markdown
 <details open>
-  <summary>榛樿灞曞紑</summary>
+  <summary>默认展开</summary>
 
-  鍐呭鈥?
+  内容…
+
 </details>
 ```
 
-### 7.3 HTML 瀵归綈
+### 7.3 HTML 对齐
 
 ```markdown
-<p align="center">灞呬腑鏂囨湰</p>
-<p align="right">鍙冲榻愭枃鏈?/p>
+<p align="center">居中文本</p>
+<p align="right">右对齐文本</p>
 <div align="center">
   <img src="..." width="400" />
 </div>
 ```
 
-### 7.4 鍒嗗壊绾?
+### 7.4 分割线
+
 ```markdown
 ---
 ***
 ___
 ```
 
-### 7.5 鎹㈣
+### 7.5 换行
 
 ```markdown
-绗竴琛屾湯灏惧姞涓や釜绌烘牸  
-鐒跺悗鎹㈣
+第一行末尾加两个空格  
+然后换行
 
-鎴栬€呯洿鎺ョ┖涓€琛屽垎娈?```
+或者直接空一行分段
+```
 
 ---
 
-## 8. 楂樹寒寮曠敤鍧?
-### 8.1 鍩虹寮曠敤
+## 8. 高亮引用块
+
+### 8.1 基础引用
 
 ```markdown
-> 杩欐槸涓€娈靛紩鐢ㄦ枃瀛?```
+> 这是一段引用文字
+```
 
-### 8.2 甯﹀浘鏍囩殑鎻愮ず妗嗭紙鐢?emoji 妯℃嫙锛?
+### 8.2 GitHub 原生提示块
+
 ```markdown
 > [!NOTE]
-> 鏈夌敤鐨勪俊鎭紝鐢ㄦ埛搴斿綋鐭ラ亾銆?
-> [!TIP]
-> 鏇村ソ鐨勫仛娉曟垨鏈夌敤鎶€宸с€?
-> [!IMPORTANT]
-> 鐢ㄦ埛鎴愬姛浣跨敤鏈骇鍝佸繀椤荤煡閬撶殑鍏抽敭淇℃伅銆?
-> [!WARNING]
-> 鍙兘鍑虹幇闂锛岄渶瑕佺珛鍗冲叧娉ㄣ€?
-> [!CAUTION]
-> 鏌愪簺琛屼负鍙兘閫犳垚璐熼潰鍚庢灉銆?```
+> 有用的信息，用户应当知道。
 
-鏁堟灉锛?
-> [!NOTE]
-> 鏈夌敤鐨勪俊鎭紝鐢ㄦ埛搴斿綋鐭ラ亾銆?
 > [!TIP]
-> 鏇村ソ鐨勫仛娉曟垨鏈夌敤鎶€宸с€?
+> 更好的做法或有用技巧。
+
 > [!IMPORTANT]
-> 鐢ㄦ埛鎴愬姛浣跨敤鏈骇鍝佸繀椤荤煡閬撶殑鍏抽敭淇℃伅銆?
+> 用户成功使用本产品必须知道的关键信息。
+
 > [!WARNING]
-> 鍙兘鍑虹幇闂锛岄渶瑕佺珛鍗冲叧娉ㄣ€?
+> 可能出现问题，需要立即关注。
+
 > [!CAUTION]
-> 鏌愪簺琛屼负鍙兘閫犳垚璐熼潰鍚庢灉銆?
-### 8.3 鑷畾涔夊僵鑹叉锛圚TML锛?
+> 某些行为可能造成负面后果。
+```
+
+效果：
+
+> [!NOTE]
+> 有用的信息，用户应当知道。
+
+> [!TIP]
+> 更好的做法或有用技巧。
+
+> [!IMPORTANT]
+> 用户成功使用本产品必须知道的关键信息。
+
+> [!WARNING]
+> 可能出现问题，需要立即关注。
+
+> [!CAUTION]
+> 某些行为可能造成负面后果。
+
+### 8.3 自定义彩色框（HTML）
+
 ```markdown
 <table>
   <tr>
-    <td>鈿狅笍</td>
-    <td><b>璀﹀憡锛?/b>姝ゆ搷浣滀笉鍙€嗭紒</td>
+    <td>⚠️</td>
+    <td><b>警告：</b>此操作不可逆！</td>
   </tr>
 </table>
 ```
 
-鏁堟灉锛?
-| | |
-|---|---|
-| 鈿狅笍 | **璀﹀憡锛?* 姝ゆ搷浣滀笉鍙€嗭紒 |
-
 ---
 
-## 9. 杩涘害鏉′笌鐧惧垎姣?
-### 9.1 鏂囧瓧杩涘害鏉?
+## 9. 进度条与百分比
+
+### 9.1 文字进度条
+
 ```
-![img](https://progress-bar.xyz/75/?title=杩涘害&width=200&color=39C5BB&progress=75)
+![img](https://progress-bar.xyz/75/?title=进度&width=200&color=39C5BB)
 ```
 
-鏁堟灉锛?
-![img](https://progress-bar.xyz/75/?title=杩涘害&width=200&color=39C5BB)
+效果：
 
-### 9.2 澶氭妧鑳芥潯锛堢敤 HTML table + 鍥撅級
+![img](https://progress-bar.xyz/75/?title=进度&width=200&color=39C5BB)
+
+### 9.2 多技能条（用徽章模拟）
 
 ```markdown
 <img src="https://img.shields.io/badge/JavaScript-90%25-yellow?style=flat-square" />
@@ -540,23 +605,25 @@ ___
 <img src="https://img.shields.io/badge/Docker-70%25-blue?style=flat-square" />
 ```
 
-鏁堟灉锛?
+效果：
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-90%25-yellow?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-85%25-blue?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-70%25-blue?style=flat-square)
 
-### 9.3 绾枃鏈繘搴︽潯
+### 9.3 纯文本进度条
 
 ```
-Python    鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻戔枒鈻戔枒鈻? 80%
-JS        鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻戔枒鈻? 90%
-Docker    鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻堚枅鈻戔枒鈻戔枒鈻戔枒鈻戔枒鈻戔枒鈻? 60%
+Python    ████████████████████░░░░░  80%
+JS        ██████████████████████░░░  90%
+Docker    ██████████████░░░░░░░░░░░  60%
 ```
 
 ---
 
-## 10. 浠ｇ爜楂樹寒涓庢姌鍙?
-### 10.1 璇硶楂樹寒
+## 10. 代码高亮与折叠
+
+### 10.1 语法高亮
 
 ````markdown
 ```python
@@ -569,29 +636,17 @@ const greet = (name) => `Hello, ${name}!`;
 ```
 
 ```bash
-git clone https://github.com/22ABLE22/awesome-markdown-tips.git
+git clone https://github.com/owner/repo.git
 ```
 
 ```diff
-- 鍒犻櫎鐨勮
-+ 鏂板鐨勮
+- 删除的行
++ 新增的行
 ```
 ````
 
-### 10.2 琛屽彿楂樹寒锛堥儴鍒嗗钩鍙版敮鎸侊級
+### 10.2 命令行高亮
 
-````markdown
-```python {1,3}
-line1
-line2
-line3
-```
-````
-
-### 10.3 浠ｇ爜鍧楀唴宓岄摼鎺ワ紙GitHub 涓嶆敮鎸侊級
-
-GitHub 鐨勪唬鐮佸潡涓嶆敮鎸佺偣鍑婚摼鎺ワ紝鍙敤娉ㄩ噴璇存槑銆?
-### 10.4 鍛戒护琛岄珮浜?
 ````markdown
 ```console
 $ pip install awesome-package
@@ -601,105 +656,100 @@ Successfully installed awesome-package-1.0.0
 
 ---
 
-## 11. 琛ㄦ牸杩涢樁
+## 11. 表格进阶
 
-### 11.1 瀵归綈
+### 11.1 对齐
 
 ```markdown
-| 宸﹀榻?| 灞呬腑 | 鍙冲榻?|
+| 左对齐 | 居中 | 右对齐 |
 |:-------|:----:|-------:|
 | a      |  b   |      c |
 | ddddd  | eeee |   ffff |
 ```
 
-| 宸﹀榻?| 灞呬腑 | 鍙冲榻?|
+| 左对齐 | 居中 | 右对齐 |
 |:-------|:----:|-------:|
 | a      |  b   |      c |
 | ddddd  | eeee |   ffff |
 
-### 11.2 琛ㄦ牸鍐呮崲琛?
+### 11.2 表格内换行
+
 ```markdown
-| 鍒?A | 鍒?B |
+| 列 A | 列 B |
 |------|------|
-| 绗竴琛?br>绗簩琛?| 澶氳鏂囨湰<br>鐢?`<br>` |
+| 第一行<br>第二行 | 多行文本<br>用 `<br>` |
 ```
 
-| 鍒?A | 鍒?B |
+| 列 A | 列 B |
 |------|------|
-| 绗竴琛?br>绗簩琛?| 澶氳鏂囨湰<br>鐢?`<br>` |
+| 第一行<br>第二行 | 多行文本<br>用 `<br>` |
 
-### 11.3 琛ㄦ牸鍐呭祵寰界珷 / 鍥剧墖
+### 11.3 表格内嵌徽章 / 图片
 
 ```markdown
-| 寰界珷 | 璇存槑 |
+| 徽章 | 说明 |
 |------|------|
-| ![Python](https://img.shields.io/badge/Python-3.10+-blue) | Python 鐗堟湰瑕佹眰 |
+| ![Python](https://img.shields.io/badge/Python-3.10+-blue) | Python 版本要求 |
 ```
 
 ---
 
-## 12. 鐩綍閿氱偣鎶€宸?
-### 12.1 鑷姩鐩綍锛堥潬鏍囬鐢熸垚锛?
-GitHub 浼氭牴鎹爣棰樿嚜鍔ㄧ敓鎴愰敋鐐癸細
+## 12. 目录锚点技巧
 
-- 涓枃鏍囬锛歚#1-shieldsio-寰界珷`
-- 鑻辨枃鏍囬锛氬皬鍐欍€佺┖鏍煎彉 `-`銆佸幓鎺夋爣鐐?- 閲嶅鏍囬锛氳嚜鍔ㄥ姞 `-1` `-2`
+### 12.1 自动目录（靠标题生成）
 
-### 12.2 鎵嬪姩閿氱偣
+GitHub 会根据标题自动生成锚点：
+
+- 中文标题：`#1-shieldsio-徽章`
+- 英文标题：小写、空格变 `-`、去掉标点
+- 重复标题：自动加 `-1` `-2`
+
+### 12.2 手动锚点
 
 ```markdown
 <a name="my-anchor"></a>
-### 浠绘剰鏍囬
+### 任意标题
 
-[璺宠浆鍒伴敋鐐筣(#my-anchor)
+[跳转到锚点](#my-anchor)
 ```
 
-### 12.3 鍥炲埌椤堕儴
-
-```markdown
-[猬嗭笍 鍥炲埌椤堕儴](#readme--椤堕儴鐨?id)
-
-<!-- 鍦ㄦ枃浠跺紑澶村姞涓€涓殣钘忛敋鐐?-->
-<a name="readme--椤堕儴鐨?id"></a>
-```
-
-鎴栵細
+### 12.3 回到顶部
 
 ```markdown
 <div align="right">
 
-[![Back to top](https://img.shields.io/badge/猬嗭笍_Back_to_top-39C5BB?style=for-the-badge)](#)
+[![Back to top](https://img.shields.io/badge/%E2%AC%86%EF%B8%8F_Back_to_top-39C5BB?style=for-the-badge)](#)
 
 </div>
 ```
 
 ---
 
-## 13. 澶嶅埗鍗崇敤妯℃澘
+## 13. 复制即用模板
 
-### 13.1 涓汉 Profile README 鐗囨
+### 13.1 个人 Profile README 片段
 
 ```markdown
-# Hi there, I'm Alice 馃憢
+# Hi there, I'm Alice 👋
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=39C5BB&center=true&vCenter=true&lines=Full-stack+Developer;Open+Source+Enthusiast)](https://git.io/typing-svg)
 
-### 馃敪 I'm currently working on
+### 🔭 I'm currently working on
 - Something amazing with React & Python
 
-### 馃尡 I'm currently learning
-- Rust 路 WebAssembly 路 LLM Ops
+### 🌱 I'm currently learning
+- Rust · WebAssembly · LLM Ops
 
-### 馃 I'm looking for
+### 🤝 I'm looking for
 - Open source collaboration
 
-### 馃摣 How to reach me
+### 📫 How to reach me
 [![Email](https://img.shields.io/badge/Email-alice%40example.com-blue?style=flat-square&logo=gmail)](mailto:alice@example.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/alice)
 
 ---
 
-### 馃搳 GitHub Stats
+### 📊 GitHub Stats
 
 ![Alice's GitHub stats](https://github-readme-stats.vercel.app/api?username=alice&show_icons=true&theme=radical)
 
@@ -711,41 +761,41 @@ GitHub 浼氭牴鎹爣棰樿嚜鍔ㄧ敓鎴愰敋鐐癸細
 
 ---
 
-### 馃洜锔?Tech Stack
+### 🛠️ Tech Stack
 
 ![My Skills](https://skillicons.dev/icons?i=js,ts,react,python,django,docker,git,github,vscode,linux,postgres,redis&perline=6)
 ```
 
-### 13.2 椤圭洰 README 鐗囨
+### 13.2 项目 README 片段
 
 ```markdown
 <div align="center">
 
-# 馃殌 My Awesome Project
+# 🚀 My Awesome Project
 
-[![Release](https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips?include_prereleases&sort=semver)](https://github.com/22ABLE22/awesome-markdown-tips/releases)
-[![License](https://img.shields.io/github/license/22ABLE22/awesome-markdown-tips)](https://github.com/22ABLE22/awesome-markdown-tips/blob/main/LICENSE)
-[![Build](https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/ci.yml)](https://github.com/22ABLE22/awesome-markdown-tips/actions)
-[![Stars](https://img.shields.io/github/stars/22ABLE22/awesome-markdown-tips?style=social)](https://github.com/22ABLE22/awesome-markdown-tips/stargazers)
+[![Release](https://img.shields.io/github/v/release/OWNER/REPO?include_prereleases&sort=semver)](https://github.com/OWNER/REPO/releases)
+[![License](https://img.shields.io/github/license/OWNER/REPO)](https://github.com/OWNER/REPO/blob/main/LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml)](https://github.com/OWNER/REPO/actions)
+[![Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)](https://github.com/OWNER/REPO/stargazers)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=39C5BB&center=true&vCenter=true&multiline=true&lines=One+liner+description;Install+in+30+seconds)](https://git.io/typing-svg)
 
-[English](./README.md) | [绠€浣撲腑鏂嘳(./README.zh-CN.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md)
 
 </div>
 
-## 鉁?Features
+## ✨ Features
 
 - Feature 1
 - Feature 2
 
-## 馃摝 Installation
+## 📦 Installation
 
 ```bash
 pip install my-awesome-project
 ```
 
-## 馃殌 Quick Start
+## 🚀 Quick Start
 
 ```python
 from my_awesome_project import hello
@@ -753,41 +803,43 @@ from my_awesome_project import hello
 print(hello("world"))
 ```
 
-## 馃搳 Star History
+## 📊 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=22ABLE22/awesome-markdown-tips&type=Date)](https://star-history.com/#22ABLE22/awesome-markdown-tips&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)
 
-## 馃 Contributors
+## 🤝 Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=22ABLE22/awesome-markdown-tips)](https://github.com/22ABLE22/awesome-markdown-tips/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=OWNER/REPO)](https://github.com/OWNER/REPO/graphs/contributors)
 
-## 馃搫 License
+## 📄 License
 
 [MIT](./LICENSE)
 ```
 
 ---
 
-## 14. 鍙傝€冭祫婧?
-### 鏈嶅姟 / 鐢熸垚鍣?
-| 鍚嶇О | 鐢ㄩ€?| 閾炬帴 |
-|------|------|------|
-| Shields.io | 寰界珷 | https://shields.io |
-| Simple Icons | 鍝佺墝 logo | https://simpleicons.org |
-| github-readme-stats | 缁熻鍗＄墖 | https://github.com/anuraghazra/github-readme-stats |
-| streak-stats | 杩炵画鎻愪氦 | https://github.com/DenverCoder1/github-readme-stats |
-| github-readme-activity-graph | 娲昏穬鍥?| https://github.com/Ashutosh00710/github-readme-activity-graph |
-| readme-typing-svg | 鎵撳瓧鏈?| https://github.com/DenverCoder1/readme-typing-svg |
-| capsul-render | 娉㈡氮椤电湁椤佃剼 | https://github.com/kyechan99/capsule-render |
-| skillicons | 鎶€鏈浘鏍?| https://skillicons.dev |
-| star-history | Star 鎶樼嚎鍥?| https://star-history.com |
-| contrib.rocks | 璐＄尞鑰呭 | https://contrib.rocks |
-| profile-summary-cards | 姒傝鍗＄墖 | https://github.com/VN7N24FZKQ/github-profile-summary-cards |
-| komarev | 璁垮璁℃暟 | https://komarev.com/ghpvc/ |
-| all-contributors | 璐＄尞鑰呭窘绔?| https://allcontributors.org |
-| awesome-badges | 寰界珷澶у叏 | https://github.com/ileriayo/awesome-badges |
+## 14. 参考资源
 
-### Markdown 瑙勮寖
+### 服务 / 生成器
+
+| 名称 | 用途 | 链接 |
+|------|------|------|
+| Shields.io | 徽章 | https://shields.io |
+| Simple Icons | 品牌 logo | https://simpleicons.org |
+| github-readme-stats | 统计卡片 | https://github.com/anuraghazra/github-readme-stats |
+| streak-stats | 连续提交 | https://github.com/DenverCoder1/github-readme-streak-stats |
+| github-readme-activity-graph | 活跃图 | https://github.com/Ashutosh00710/github-readme-activity-graph |
+| readme-typing-svg | 打字机 | https://github.com/DenverCoder1/readme-typing-svg |
+| capsule-render | 波浪页眉页脚 | https://github.com/kyechan99/capsule-render |
+| skillicons | 技术图标 | https://skillicons.dev |
+| star-history | Star 折线图 | https://star-history.com |
+| contrib.rocks | 贡献者墙 | https://contrib.rocks |
+| profile-summary-cards | 概览卡片 | https://github.com/VN7N24FZKQ/github-profile-summary-cards |
+| komarev | 访客计数 | https://komarev.com/ghpvc/ |
+| all-contributors | 贡献者徽章 | https://allcontributors.org |
+| awesome-badges | 徽章大全 | https://github.com/ileriayo/awesome-badges |
+
+### Markdown 规范
 
 - [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github)
 - [CommonMark Spec](https://commonmark.org/)
@@ -796,9 +848,8 @@ print(hello("world"))
 
 <div align="center">
 
-**濡傛灉杩欎釜浠撳簱瀵逛綘鏈夊府鍔╋紝璇风粰涓€涓?猸?Star锛?*
+**如果这个仓库对你有帮助，请给一个 ⭐ Star！**
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:39C5BB,100:1a7f8f&height=120&section=footer)
 
 </div>
-

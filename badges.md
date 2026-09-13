@@ -1,76 +1,76 @@
-﻿# Badge 鐢熸垚鍣ㄩ€熸煡
+# 徽章速查 · Badges
 
-鍙斁鍙洿鎺ユ敼鍙傛暟灏辩敤鐨?URL锛屾寜鍦烘櫙鍒嗙被銆?
-鎶?`OWNER` / `REPO` / `22ABLE22` 鏇挎崲鎴愪綘鑷繁鐨勫嵆鍙€?
----
+只放可直接改参数就用的 URL，按场景分类。
 
-## 1. 浠撳簱淇℃伅绫?
-| 鏁堟灉 | URL |
-|------|-----|
-| 鏈€鏂?Release | `https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips` |
-| 棰勫彂甯冪増鏈?| `https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips?include_prereleases` |
-| License | `https://img.shields.io/github/license/22ABLE22/awesome-markdown-tips` |
-| 鏈€鍚庢彁浜?| `https://img.shields.io/github/last-commit/22ABLE22/awesome-markdown-tips` |
-| 鏈€鍚?Release | `https://img.shields.io/github/release-date/22ABLE22/awesome-markdown-tips` |
-| 浠撳簱澶у皬 | `https://img.shields.io/github/repo-size/22ABLE22/awesome-markdown-tips` |
-| 浠ｇ爜澶у皬 | `https://img.shields.io/github/languages/code-size/22ABLE22/awesome-markdown-tips` |
-| 璇█鏁伴噺 | `https://img.shields.io/github/languages/count/22ABLE22/awesome-markdown-tips` |
-| 涓昏瑷€ | `https://img.shields.io/github/languages/top/22ABLE22/awesome-markdown-tips` |
-| 鏂囦欢鏁?| `https://img.shields.io/github/directory-file-count/22ABLE22/awesome-markdown-tips` |
-| 鍒嗘敮鏁?| `https://img.shields.io/github/branches/22ABLE22/awesome-markdown-tips` |
+把 `OWNER` / `REPO` / `YOUR_USERNAME` 替换成你自己的即可。
 
 ---
 
-## 2. 绀句氦 / 鐑害
+## 1. 仓库信息类
 
-| 鏁堟灉 | URL |
+| 效果 | URL |
 |------|-----|
-| Stars | `https://img.shields.io/github/stars/22ABLE22/awesome-markdown-tips?style=social` |
-| Forks | `https://img.shields.io/github/forks/22ABLE22/awesome-markdown-tips?style=social` |
-| Watchers | `https://img.shields.io/github/watchers/22ABLE22/awesome-markdown-tips?style=social` |
-| 涓汉 Followers | `https://img.shields.io/github/followers/22ABLE22?style=social` |
-| 鍏虫敞鏌愪汉 | `https://img.shields.io/github/followers/22ABLE22?style=social&label=Follow` |
+| 最新 Release | `https://img.shields.io/github/v/release/OWNER/REPO` |
+| 预发布版本 | `https://img.shields.io/github/v/release/OWNER/REPO?include_prereleases` |
+| License | `https://img.shields.io/github/license/OWNER/REPO` |
+| 最后提交 | `https://img.shields.io/github/last-commit/OWNER/REPO` |
+| 最后 Release | `https://img.shields.io/github/release-date/OWNER/REPO` |
+| 仓库大小 | `https://img.shields.io/github/repo-size/OWNER/REPO` |
+| 代码大小 | `https://img.shields.io/github/languages/code-size/OWNER/REPO` |
+| 语言数量 | `https://img.shields.io/github/languages/count/OWNER/REPO` |
+| 主语言 | `https://img.shields.io/github/languages/top/OWNER/REPO` |
+| 文件数 | `https://img.shields.io/github/directory-file-count/OWNER/REPO` |
+| 分支数 | `https://img.shields.io/github/branches/OWNER/REPO` |
+
+---
+
+## 2. 社交 / 热度
+
+| 效果 | URL |
+|------|-----|
+| Stars | `https://img.shields.io/github/stars/OWNER/REPO?style=social` |
+| Forks | `https://img.shields.io/github/forks/OWNER/REPO?style=social` |
+| Watchers | `https://img.shields.io/github/watchers/OWNER/REPO?style=social` |
+| 个人 Followers | `https://img.shields.io/github/followers/YOUR_USERNAME?style=social` |
+| 关注某人 | `https://img.shields.io/github/followers/YOUR_USERNAME?style=social&label=Follow` |
 
 ---
 
 ## 3. Issue / PR
 
-| 鏁堟灉 | URL |
+| 效果 | URL |
 |------|-----|
-| Open Issues | `https://img.shields.io/github/issues/22ABLE22/awesome-markdown-tips` |
-| Closed Issues | `https://img.shields.io/github/issues-closed/22ABLE22/awesome-markdown-tips` |
-| Open PRs | `https://img.shields.io/github/issues-pr/22ABLE22/awesome-markdown-tips` |
-| Closed PRs | `https://img.shields.io/github/issues-pr-closed/22ABLE22/awesome-markdown-tips` |
-| Issue 琚璁?| `https://img.shields.io/github/issues-detail/u/22ABLE22/awesome-markdown-tips/1` |
+| Open Issues | `https://img.shields.io/github/issues/OWNER/REPO` |
+| Closed Issues | `https://img.shields.io/github/issues-closed/OWNER/REPO` |
+| Open PRs | `https://img.shields.io/github/issues-pr/OWNER/REPO` |
+| Closed PRs | `https://img.shields.io/github/issues-pr-closed/OWNER/REPO` |
 
 ---
 
-## 4. CI / 鏋勫缓
+## 4. CI / 构建
 
-| 鏁堟灉 | URL |
+| 效果 | URL |
 |------|-----|
-| GitHub Actions | `https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/ci.yml` |
-| 鎸囧畾鍒嗘敮 | `https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/ci.yml?branch=main` |
-| 鏋勫缓鐘舵€侊紙鏃э級 | `https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/build.yml?label=build` |
-| Coveralls | `https://img.shields.io/coveralls/github/22ABLE22/awesome-markdown-tips` |
-| Codecov | `https://img.shields.io/codecov/c/github/22ABLE22/awesome-markdown-tips` |
-| Sonar Quality | `https://sonarcloud.io/api/project_badges/measure?project=OWNER_REPO&metric=alert_status` |
+| GitHub Actions | `https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml` |
+| 指定分支 | `https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main` |
+| Coveralls | `https://img.shields.io/coveralls/github/OWNER/REPO` |
+| Codecov | `https://img.shields.io/codecov/c/github/OWNER/REPO` |
 
 ---
 
-## 5. 鍖呯鐞?
-| 鏁堟灉 | URL |
+## 5. 包管理
+
+| 效果 | URL |
 |------|-----|
-| npm 鐗堟湰 | `https://img.shields.io/npm/v/PACKAGE` |
-| npm 涓嬭浇閲?鏈?| `https://img.shields.io/npm/dm/PACKAGE` |
-| npm 涓嬭浇閲?鍛?| `https://img.shields.io/npm/dw/PACKAGE` |
-| PyPI 鐗堟湰 | `https://img.shields.io/pypi/v/PACKAGE` |
-| PyPI 鐗堟湰鏀寔 | `https://img.shields.io/pypi/pyversions/PACKAGE` |
-| PyPI 涓嬭浇閲?| `https://img.shields.io/pypi/dm/PACKAGE` |
+| npm 版本 | `https://img.shields.io/npm/v/PACKAGE` |
+| npm 下载量/月 | `https://img.shields.io/npm/dm/PACKAGE` |
+| npm 下载量/周 | `https://img.shields.io/npm/dw/PACKAGE` |
+| PyPI 版本 | `https://img.shields.io/pypi/v/PACKAGE` |
+| PyPI 版本支持 | `https://img.shields.io/pypi/pyversions/PACKAGE` |
+| PyPI 下载量 | `https://img.shields.io/pypi/dm/PACKAGE` |
 | crates.io | `https://img.shields.io/crates/v/PACKAGE` |
 | Maven | `https://img.shields.io/maven-central/v/GROUP/ARTIFACT` |
-| Go Report | `https://goreportcard.com/badge/github.com/22ABLE22/awesome-markdown-tips` |
-| GoDoc | `https://godoc.org/github.com/22ABLE22/awesome-markdown-tips?status.svg` |
+| Go Report | `https://goreportcard.com/badge/github.com/OWNER/REPO` |
 | Packagist | `https://img.shields.io/packagist/v/VENDOR/PACKAGE` |
 | RubyGems | `https://img.shields.io/gem/v/PACKAGE` |
 | NuGet | `https://img.shields.io/nuget/v/PACKAGE` |
@@ -79,7 +79,8 @@
 
 ---
 
-## 6. 骞冲彴 / 杩愯鐜锛堥潤鎬佽嚜瀹氫箟锛?
+## 6. 平台 / 运行环境（静态自定义）
+
 ```markdown
 ![Python](https://img.shields.io/badge/Python-%3E%3D3.10-blue?logo=python&logoColor=white)
 ![Node](https://img.shields.io/badge/Node-%3E%3D18-brightgreen?logo=node.js&logoColor=black)
@@ -93,7 +94,7 @@
 
 ---
 
-## 7. 鎿嶄綔绯荤粺 / 閮ㄧ讲骞冲彴
+## 7. 操作系统 / 部署平台
 
 ```markdown
 ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)
@@ -111,7 +112,7 @@
 
 ---
 
-## 8. 鑱旂郴鏂瑰紡
+## 8. 联系方式
 
 ```markdown
 ![Email](https://img.shields.io/badge/Email-you%40example.com-D14836?logo=gmail&logoColor=white)
@@ -132,7 +133,8 @@
 
 ---
 
-## 9. 鐘舵€佺被鑷畾涔?
+## 9. 状态类自定义
+
 ```markdown
 ![Status](https://img.shields.io/badge/status-online-brightgreen)
 ![Status](https://img.shields.io/badge/status-maintenance-yellow)
@@ -146,29 +148,31 @@
 
 ---
 
-## 10. 杩涘害绫?
+## 10. 进度类
+
 ```markdown
-![progress](https://progress-bar.xyz/75/?title=瀹屾垚搴?width=200&color=39C5BB)
+![progress](https://progress-bar.xyz/75/?title=完成度&width=200&color=39C5BB)
 ![progress](https://progress-bar.xyz/100/?title=Done&width=200&color=4c1)
 ```
 
 ---
 
-## 11. 璁垮 / 娴侀噺
+## 11. 访客 / 流量
 
 ```markdown
-![Views](https://komarev.com/ghpvc/?username=22ABLE22&color=brightgreen)
-![Views](https://hits.sh/github.com/22ABLE22/awesome-markdown-tips.svg?color=39C5BB&label=Visitors)
+![Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=brightgreen)
+![Views](https://hits.sh/github.com/OWNER/REPO.svg?color=39C5BB&label=Visitors)
 ```
 
 ---
 
-## 12. 鎶€鏈爤涓€閿敓鎴愶紙skillicons锛?
+## 12. 技术栈一键生成（skillicons）
+
 ```
 https://skillicons.dev/icons?i=ICON1,ICON2,ICON3&perline=N
 ```
 
-甯哥敤鍥炬爣鍚嶏細
+常用图标名：
 
 ```
 js ts html css sass less tailwind bootstrap materialui
@@ -185,16 +189,17 @@ nginx redis firebase vercel netlify heroku
 electron tauri godot unity unreal
 ```
 
-绀轰緥锛?
+示例：
+
 ```markdown
 ![Skills](https://skillicons.dev/icons?i=js,ts,react,next,nodejs,python,django,docker,postgres,redis,git,github,vscode,linux,aws&perline=5)
 ```
 
 ---
 
-## 13. 鑷畾涔?Logo 棰滆壊瀵圭収
+## 13. 自定义 Logo 颜色对照
 
-| 鍝佺墝 | 寤鸿鑳屾櫙鑹?| logoColor |
+| 品牌 | 建议背景色 | logoColor |
 |------|-----------|-----------|
 | Python | `#3776AB` | white |
 | JavaScript | `#F7DF1E` | black |
@@ -217,14 +222,14 @@ electron tauri godot unity unreal
 | Redis | `#DC382D` | white |
 | Figma | `#F24E1E` | white |
 
-瀹屾暣 logo 鍒楄〃锛歨ttps://simpleicons.org/
+完整 logo 列表：https://simpleicons.org/
 
 ---
 
-## 14. Style 瀵规瘮
+## 14. Style 对比
 
 ```markdown
-<!-- flat锛堥粯璁わ級 -->
+<!-- flat（默认） -->
 https://img.shields.io/badge/A-B-39C5BB?style=flat
 
 <!-- flat-square -->
@@ -242,7 +247,8 @@ https://img.shields.io/badge/A-B-39C5BB?style=social
 
 ---
 
-## 15. 缁勫悎妯℃澘锛氭妸寰界珷鎺掓垚涓€琛?
+## 15. 组合模板：把徽章排成一行
+
 ```html
 <p align="center">
   <a href="https://www.python.org/">
@@ -262,5 +268,4 @@ https://img.shields.io/badge/A-B-39C5BB?style=social
 
 ---
 
-[猬嗭笍 鍥炲埌涓绘枃妗(./README.md)
-
+[⬆️ 回到主文档](./README.md)

@@ -1,25 +1,26 @@
-﻿# 椤圭洰 README 楠ㄦ灦
+# 项目 README 骨架
 
-涓€涓姛鑳藉畬鏁寸殑椤圭洰 README 缁撴瀯锛屽彲鎸夐渶鍒犲噺绔犺妭銆?
+一个功能完整的项目 README 结构，可按需删减章节。
+
 ---
 
-## 瀹屾暣楠ㄦ灦
+## 完整骨架
 
 ```markdown
 <div align="center">
 
-# 馃殌 Project Name
+# 🚀 Project Name
 
-[![Release](https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips?include_prereleases&sort=semver)](https://github.com/22ABLE22/awesome-markdown-tips/releases/latest)
-[![License](https://img.shields.io/github/license/22ABLE22/awesome-markdown-tips)](https://github.com/22ABLE22/awesome-markdown-tips/blob/main/LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/ci.yml?branch=main&label=CI)](https://github.com/22ABLE22/awesome-markdown-tips/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/22ABLE22/awesome-markdown-tips)](https://codecov.io/gh/22ABLE22/awesome-markdown-tips)
-[![Downloads](https://img.shields.io/github/downloads/22ABLE22/awesome-markdown-tips/total)](https://github.com/22ABLE22/awesome-markdown-tips/releases)
-[![Stars](https://img.shields.io/github/stars/22ABLE22/awesome-markdown-tips?style=social)](https://github.com/22ABLE22/awesome-markdown-tips/stargazers)
+[![Release](https://img.shields.io/github/v/release/OWNER/REPO?include_prereleases&sort=semver)](https://github.com/OWNER/REPO/releases/latest)
+[![License](https://img.shields.io/github/license/OWNER/REPO)](https://github.com/OWNER/REPO/blob/main/LICENSE)
+[![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main&label=CI)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/codecov/c/github/OWNER/REPO)](https://codecov.io/gh/OWNER/REPO)
+[![Downloads](https://img.shields.io/github/downloads/OWNER/REPO/total)](https://github.com/OWNER/REPO/releases)
+[![Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)](https://github.com/OWNER/REPO/stargazers)
 
 **One sentence that says what this project does and why it matters.**
 
-[English](./README.md) 路 [绠€浣撲腑鏂嘳(./README.zh-CN.md) 路 [Docs](https://docs.example.com) 路 [Demo](https://demo.example.com)
+[English](./README.md) · [简体中文](./README.zh-CN.md) · [Docs](https://docs.example.com) · [Demo](https://demo.example.com)
 
 ![Demo GIF or Screenshot](./docs/assets/demo.gif)
 
@@ -27,7 +28,7 @@
 
 ---
 
-## 馃摉 Table of Contents
+## 📖 Table of Contents
 
 - [About](#-about)
 - [Features](#-features)
@@ -44,14 +45,15 @@
 
 ---
 
-## 馃摉 About
+## 📖 About
 
-涓€娈甸」鐩儗鏅粙缁嶏細瑙ｅ喅浠€涔堥棶棰樸€佺洰鏍囩敤鎴锋槸璋併€佷笌鍚岀被椤圭洰鐨勫樊寮傘€?
-## 鉁?Features
+一段项目背景介绍：解决什么问题、目标用户是谁、与同类项目的差异。
 
-- 鉁?Feature one
-- 鉁?Feature two
-- 鉁?Feature three
+## ✨ Features
+
+- ✅ Feature one
+- ✅ Feature two
+- ✅ Feature three
 
 <details>
 <summary>More features</summary>
@@ -61,7 +63,7 @@
 
 </details>
 
-## 馃摝 Installation
+## 📦 Installation
 
 ### npm
 
@@ -78,13 +80,14 @@ pip install package-name
 ### Docker
 
 ```bash
-docker pull 22ABLE22/awesome-markdown-tips:latest
+docker pull owner/repo:latest
 ```
 
-## 馃殌 Quick Start
+## 🚀 Quick Start
 
 ```bash
-# 涓€琛屽惎鍔?npx package-name init
+# 一行启动
+npx package-name init
 ```
 
 ```python
@@ -93,17 +96,18 @@ from package import hello
 hello("world")
 ```
 
-## 鈿欙笍 Configuration
+## ⚙️ Configuration
 
 | Variable | Type | Default | Description |
 |----------|------|---------|-------------|
-| `API_KEY` | string | `""` | 浣犵殑 API Key |
-| `PORT` | number | `3000` | 鏈嶅姟绔彛 |
-| `DEBUG` | bool | `false` | 鏄惁寮€鍚皟璇?|
+| `API_KEY` | string | `""` | 你的 API Key |
+| `PORT` | number | `3000` | 服务端口 |
+| `DEBUG` | bool | `false` | 是否开启调试 |
 
 > [!TIP]
-> 寤鸿閫氳繃 `.env` 鏂囦欢閰嶇疆鏁忔劅淇℃伅锛屽苟鍔犲叆 `.gitignore`銆?
-## 馃摎 Usage
+> 建议通过 `.env` 文件配置敏感信息，并加入 `.gitignore`。
+
+## 📚 Usage
 
 ### Basic
 
@@ -123,7 +127,7 @@ const result = await doSomething({
 });
 ```
 
-## 馃彈 Architecture
+## 🏗 Architecture
 
 ```mermaid
 flowchart LR
@@ -134,7 +138,7 @@ flowchart LR
     D --> E
 ```
 
-## 馃 Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing`)
@@ -144,77 +148,78 @@ flowchart LR
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
-## 馃搫 License
+## 📄 License
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
-## 馃専 Star History
+## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=22ABLE22/awesome-markdown-tips&type=Date)](https://star-history.com/#22ABLE22/awesome-markdown-tips&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)
 
-## 馃檹 Acknowledgements
+## 🙏 Acknowledgements
 
-- [Library A](https://github.com/a) 鈥?used for X
-- [Library B](https://github.com/b) 鈥?used for Y
+- [Library A](https://github.com/a) — used for X
+- [Library B](https://github.com/b) — used for Y
 
-## 馃懃 Contributors
+## 👥 Contributors
 
-[![Contributors](https://contrib.rocks/image?repo=22ABLE22/awesome-markdown-tips)](https://github.com/22ABLE22/awesome-markdown-tips/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=OWNER/REPO)](https://github.com/OWNER/REPO/graphs/contributors)
 
 ---
 
 <div align="center">
 
-Made with 鉂わ笍 by [Alice](https://github.com/alice)
+Made with ❤️ by [Alice](https://github.com/alice)
 
 </div>
 ```
 
 ---
 
-## 绔犺妭鍙栬垗寤鸿
+## 章节取舍建议
 
-| 椤圭洰绫诲瀷 | 寤鸿淇濈暀绔犺妭 |
+| 项目类型 | 建议保留章节 |
 |----------|-------------|
-| 寮€婧愬簱 | About / Features / Install / Quick Start / Config / API / Contributing / License / Star History |
-| CLI 宸ュ叿 | About / Install / Usage / Commands / Config / Contributing |
-| Web 搴旂敤 | About / Demo / Screenshots / Install / Deploy / Contributing |
-| 瀛︿範绗旇 | About / TOC / 姝ｆ枃 / References |
-| 宸ュ叿闆?鍚堥泦 | About / 鍒嗙被鍒楄〃 / 浣跨敤鏂规硶 / 璐＄尞鎸囧崡 |
+| 开源库 | About / Features / Install / Quick Start / Config / API / Contributing / License / Star History |
+| CLI 工具 | About / Install / Usage / Commands / Config / Contributing |
+| Web 应用 | About / Demo / Screenshots / Install / Deploy / Contributing |
+| 学习笔记 | About / TOC / 正文 / References |
+| 工具集 / 合集 | About / 分类列表 / 使用方法 / 贡献指南 |
 
 ---
 
-## 甯哥敤寰界珷閫熸煡锛堥」鐩敤锛?
+## 常用徽章速查（项目用）
+
 ```markdown
-<!-- 鐗堟湰 -->
-![Release](https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips)
-![Pre-release](https://img.shields.io/github/v/release/22ABLE22/awesome-markdown-tips?include_prereleases)
+<!-- 版本 -->
+![Release](https://img.shields.io/github/v/release/OWNER/REPO)
+![Pre-release](https://img.shields.io/github/v/release/OWNER/REPO?include_prereleases)
 ![npm version](https://img.shields.io/npm/v/PACKAGE)
 ![PyPI version](https://img.shields.io/pypi/v/PACKAGE)
 
-<!-- 璐ㄩ噺 -->
-![CI](https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/ci.yml)
-![Coverage](https://img.shields.io/codecov/c/github/22ABLE22/awesome-markdown-tips)
-![CodeQL](https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/codeql.yml?label=CodeQL)
+<!-- 质量 -->
+![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml)
+![Coverage](https://img.shields.io/codecov/c/github/OWNER/REPO)
+![CodeQL](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/codeql.yml?label=CodeQL)
 
-<!-- 鍚堣 -->
-![License](https://img.shields.io/github/license/22ABLE22/awesome-markdown-tips)
+<!-- 合规 -->
+![License](https://img.shields.io/github/license/OWNER/REPO)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)
 
-<!-- 娲昏穬搴?-->
-![Last commit](https://img.shields.io/github/last-commit/22ABLE22/awesome-markdown-tips)
-![Commit activity](https://img.shields.io/github/commit-activity/m/22ABLE22/awesome-markdown-tips)
-![Downloads](https://img.shields.io/github/downloads/22ABLE22/awesome-markdown-tips/total)
-![Issues](https://img.shields.io/github/issues/22ABLE22/awesome-markdown-tips)
-![Open PRs](https://img.shields.io/github/issues-pr-raw/22ABLE22/awesome-markdown-tips)
+<!-- 活跃度 -->
+![Last commit](https://img.shields.io/github/last-commit/OWNER/REPO)
+![Commit activity](https://img.shields.io/github/commit-activity/m/OWNER/REPO)
+![Downloads](https://img.shields.io/github/downloads/OWNER/REPO/total)
+![Issues](https://img.shields.io/github/issues/OWNER/REPO)
+![Open PRs](https://img.shields.io/github/issues-pr-raw/OWNER/REPO)
 
-<!-- 绀句氦 -->
-![Stars](https://img.shields.io/github/stars/22ABLE22/awesome-markdown-tips?style=social)
-![Forks](https://img.shields.io/github/forks/22ABLE22/awesome-markdown-tips?style=social)
-![Watchers](https://img.shields.io/github/watchers/22ABLE22/awesome-markdown-tips?style=social)
+<!-- 社交 -->
+![Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)
+![Forks](https://img.shields.io/github/forks/OWNER/REPO?style=social)
+![Watchers](https://img.shields.io/github/watchers/OWNER/REPO?style=social)
 
-<!-- 骞冲彴 -->
+<!-- 平台 -->
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
@@ -222,20 +227,19 @@ Made with 鉂わ笍 by [Alice](https://github.com/alice)
 
 ---
 
-## 澶氳瑷€ README 鍛藉悕绾﹀畾
+## 多语言 README 命名约定
 
-| 鏂囦欢 | 璇█ |
+| 文件 | 语言 |
 |------|------|
-| `README.md` | English锛堥粯璁わ級 |
-| `README.zh-CN.md` | 绠€浣撲腑鏂?|
-| `README.zh-TW.md` | 绻佷綋涓枃 |
-| `README.ja.md` | 鏃ユ湰璇?|
-| `README.ko.md` | 頃滉淡鞏?|
-| `README.es.md` | Espa帽ol |
+| `README.md` | English（默认） |
+| `README.zh-CN.md` | 简体中文 |
+| `README.zh-TW.md` | 繁体中文 |
+| `README.ja.md` | 日本语 |
+| `README.ko.md` | 한국어 |
+| `README.es.md` | Español |
 
-鍦ㄦ枃浠堕《閮ㄤ簰閾撅細
+在文件顶部互链：
 
 ```markdown
-English | [绠€浣撲腑鏂嘳(./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md)
 ```
-

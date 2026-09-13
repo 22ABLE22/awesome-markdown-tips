@@ -1,54 +1,69 @@
-﻿# Markdown 璇硶閫熸煡 + 灏忕粏鑺?
-鏀堕泦 GitHub 涓婂ソ鐢ㄤ絾瀹规槗琚拷鐣ョ殑 Markdown / HTML 灏忕粏鑺傘€?
+# Markdown 语法速查 + 小细节
+
+收集 GitHub 上好用但容易被忽略的 Markdown / HTML 小细节。
+
 ---
 
-## 1. 鏂囨湰鏍峰紡
+## 1. 文本样式
 
 ```markdown
-**鍔犵矖**
-*鏂滀綋*
-***鍔犵矖鏂滀綋***
-~~鍒犻櫎绾縹~
-`琛屽唴浠ｇ爜`
-<u>涓嬪垝绾匡紙闇€ HTML锛?/u>
-H~2~O 涓嬫爣锛堥渶 HTML 鎴栭儴鍒嗘墿灞曪級
-X^2^ 涓婃爣锛堥儴鍒嗘墿灞曪級
+**加粗**
+*斜体*
+***加粗斜体***
+~~删除线~~
+`行内代码`
+<u>下划线（需 HTML）</u>
+H~2~O 下标（需 HTML 或部分扩展）
+X^2^ 上标（部分扩展）
 ```
 
-鏁堟灉锛?
-**鍔犵矖** 路 *鏂滀綋* 路 ***鍔犵矖鏂滀綋*** 路 ~~鍒犻櫎绾縹~ 路 `琛屽唴浠ｇ爜` 路 <u>涓嬪垝绾?/u> 路 H<sub>2</sub>O 路 X<sup>2</sup>
+效果：
+
+**加粗** · *斜体* · ***加粗斜体*** · ~~删除线~~ · `行内代码` · <u>下划线</u> · H<sub>2</sub>O · X<sup>2</sup>
 
 ---
 
-## 2. 閿洏鎸夐敭鏍峰紡
+## 2. 键盘按键样式
 
 ```markdown
-鎸?<kbd>Ctrl</kbd> + <kbd>C</kbd> 澶嶅埗
+按 <kbd>Ctrl</kbd> + <kbd>C</kbd> 复制
 ```
 
-鎸?<kbd>Ctrl</kbd> + <kbd>C</kbd> 澶嶅埗
+按 <kbd>Ctrl</kbd> + <kbd>C</kbd> 复制
 
 ---
 
-## 3. 浠诲姟鍒楄〃 / 澶嶉€夋
+## 3. 任务列表 / 复选框
 
 ```markdown
-- [x] 宸插畬鎴愪换鍔?- [ ] 鏈畬鎴愪换鍔?- [ ] 绗笁椤?```
+- [x] 已完成任务
+- [ ] 未完成任务
+- [ ] 第三项
+```
 
-- [x] 宸插畬鎴愪换鍔?- [ ] 鏈畬鎴愪换鍔?- [ ] 绗笁椤?
-鍦?Issue / PR 閲屽彲浠ョ洿鎺ョ偣鍑诲嬀閫夈€?
+- [x] 已完成任务
+- [ ] 未完成任务
+- [ ] 第三项
+
+在 Issue / PR 里可以直接点击勾选。
+
 ---
 
-## 4. 鑴氭敞锛圙itHub 鏀寔锛?
+## 4. 脚注（GitHub 支持）
+
 ```markdown
-杩欓噷鏈変竴涓剼娉╗^1]銆?
-[^1]: 杩欐槸鑴氭敞鐨勫唴瀹广€?```
+这里有一个脚注[^1]。
 
-杩欓噷鏈変竴涓剼娉╗^1]銆?
-[^1]: 杩欐槸鑴氭敞鐨勫唴瀹广€?
+[^1]: 这是脚注的内容。
+```
+
+这里有一个脚注[^1]。
+
+[^1]: 这是脚注的内容。
+
 ---
 
-## 5. 鑷姩閾炬帴
+## 5. 自动链接
 
 ```markdown
 https://github.com
@@ -57,15 +72,17 @@ user@example.com
 <user@example.com>
 ```
 
-浼氳嚜鍔ㄥ彉鎴愬彲鐐瑰嚮閾炬帴銆?
+会自动变成可点击链接。
+
 ---
 
-## 6. 鎻愬強涓庡紩鐢?
+## 6. 提及与引用
+
 ```markdown
-@鐢ㄦ埛鍚?         鈫?鎻愬強鐢ㄦ埛
-#123             鈫?寮曠敤 Issue
-GH-123           鈫?寮曠敤 Issue
-22ABLE22/awesome-markdown-tips#123   鈫?璺ㄤ粨搴?Issue
+@用户名          → 提及用户
+#123             → 引用 Issue
+GH-123           → 引用 Issue
+OWNER/REPO#123   → 跨仓库 Issue
 ```
 
 ---
@@ -77,48 +94,52 @@ GH-123           鈫?寮曠敤 Issue
 :sparkles: :fire: :bug: :books: :wrench: :package:
 ```
 
-鏁堟灉锛氿煔€ 猸?鉂わ笍 鈿狅笍 馃挕 馃挴 馃帀 鉁?馃悶 馃悰 馃摎 馃敡 馃摝
+效果：🚀 ⭐ ❤️ ⚠️ 💡 💯 🎉 ✨ 🐞 🐛 📚 🔧 📦
 
-瀹屾暣鍒楄〃锛歨ttps://github.com/ikatyang/emoji-cheat-sheet
+完整列表：https://github.com/ikatyang/emoji-cheat-sheet
 
 ---
 
-## 8. 楂樹寒鏍囪锛坄==鏂囨湰==` 閮ㄥ垎骞冲彴鏀寔锛?
-GitHub 鍘熺敓 Markdown **涓嶆敮鎸?* `==楂樹寒==`锛屼絾閮ㄥ垎娓叉煋鍣ㄦ敮鎸併€侴itHub 涓婂彲鐢細
+## 8. 高亮标记
+
+GitHub 原生 Markdown **不支持** `==高亮==`，但可用：
 
 ```html
-<mark>楂樹寒鏂囨湰</mark>
+<mark>高亮文本</mark>
 ```
 
-鏁堟灉锛?mark>楂樹寒鏂囨湰</mark>
+效果：<mark>高亮文本</mark>
 
 ---
 
-## 9. 鎶樺彔鍐呭
+## 9. 折叠内容
 
 ```markdown
 <details>
-  <summary>鐐瑰嚮灞曞紑</summary>
+  <summary>点击展开</summary>
 
-  鍐呭鍐欏湪杩欓噷锛堝墠鍚庣┖琛屽緢閲嶈锛?
+  内容写在这里（前后空行很重要）
+
 </details>
 ```
 
-娉ㄦ剰锛?1. `<summary>` 鍜屾鏂囦箣闂村繀椤绘湁绌鸿
-2. `</details>` 鍓嶄篃瑕佹湁绌鸿
-3. 鍚﹀垯鍐呭浼氫互绾枃鏈樉绀?
+注意：
+1. `<summary>` 和正文之间必须有空行
+2. `</details>` 前也要有空行
+3. 否则内容会以纯文本显示
+
 ---
 
-## 10. 鍥剧墖杩涢樁
+## 10. 图片进阶
 
-### 10.1 鎸囧畾瀹介珮
+### 10.1 指定宽高
 
 ```html
 <img src="./demo.png" width="500" />
 <img src="./demo.png" width="80%" />
 ```
 
-### 10.2 灞呬腑
+### 10.2 居中
 
 ```html
 <div align="center">
@@ -126,13 +147,14 @@ GitHub 鍘熺敓 Markdown **涓嶆敮鎸?* `==楂樹寒==`锛屼絾閮ㄥ垎娓�
 </div>
 ```
 
-### 10.3 鐩稿璺緞 + 閿氱偣閾炬帴鍥剧墖
+### 10.3 相对路径 + 锚点链接图片
 
 ```markdown
 [![Logo](./logo.png)](https://example.com)
 ```
 
-### 10.4 鏆楄壊妯″紡閫傞厤锛堜粎閮ㄥ垎浠撳簱鏀寔锛?
+### 10.4 暗色模式适配（仅部分仓库支持）
+
 ```html
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./logo-dark.png">
@@ -142,15 +164,15 @@ GitHub 鍘熺敓 Markdown **涓嶆敮鎸?* `==楂樹寒==`锛屼絾閮ㄥ垎娓�
 
 ---
 
-## 11. 琛ㄦ儏鍙嶅簲寰界珷锛圓ll Contributors锛?
+## 11. 贡献者徽章（All Contributors）
+
 ```markdown
-<!-- readme 妯℃澘涓?-->
-<a href="https://github.com/22ABLE22/awesome-markdown-tips/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=22ABLE22/awesome-markdown-tips" />
+<a href="https://github.com/OWNER/REPO/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OWNER/REPO" />
 </a>
 ```
 
-鐢?[allcontributors.org](https://allcontributors.org) 鏈哄櫒浜鸿嚜鍔ㄧ敓鎴愯础鐚€呭垪琛細
+用 [allcontributors.org](https://allcontributors.org) 机器人自动生成贡献者列表：
 
 ```markdown
 @all-contributors please add @alice for code, doc
@@ -158,41 +180,42 @@ GitHub 鍘熺敓 Markdown **涓嶆敮鎸?* `==楂樹寒==`锛屼絾閮ㄥ垎娓�
 
 ---
 
-## 12. Mermaid 鍥捐〃
+## 12. Mermaid 图表
 
-GitHub 鍘熺敓鏀寔 Mermaid锛?
+GitHub 原生支持 Mermaid：
+
 ````markdown
 ```mermaid
 graph TD
-    A[寮€濮媇 --> B{鏉′欢?}
-    B -->|鏄瘄 C[鎵ц A]
-    B -->|鍚 D[鎵ц B]
-    C --> E[缁撴潫]
+    A[开始] --> B{条件?}
+    B -->|是| C[执行 A]
+    B -->|否| D[执行 B]
+    C --> E[结束]
     D --> E
 ```
 ````
 
 ```mermaid
 graph TD
-    A[寮€濮媇 --> B{鏉′欢?}
-    B -->|鏄瘄 C[鎵ц A]
-    B -->|鍚 D[鎵ц B]
-    C --> E[缁撴潫]
+    A[开始] --> B{条件?}
+    B -->|是| C[执行 A]
+    B -->|否| D[执行 B]
+    C --> E[结束]
     D --> E
 ```
 
-### 甯哥敤鍥捐〃绫诲瀷
+### 常用图表类型
 
 ```mermaid
 sequenceDiagram
     participant U as User
     participant S as Server
-    U->>S: 璇锋眰鏁版嵁
-    S-->>U: 杩斿洖 JSON
+    U->>S: 请求数据
+    S-->>U: 返回 JSON
 ```
 
 ```mermaid
-pie title 璇█鍗犳瘮
+pie title 语言占比
     "Python" : 45
     "JavaScript" : 30
     "Go" : 15
@@ -201,42 +224,49 @@ pie title 璇█鍗犳瘮
 
 ```mermaid
 gantt
-    title 椤圭洰璁″垝
+    title 项目计划
     dateFormat  YYYY-MM-DD
-    section 璁捐
-    闇€姹傚垎鏋?     :a1, 2024-01-01, 7d
-    UI 璁捐      :after a1, 5d
-    section 寮€鍙?    鍓嶇寮€鍙?     :2024-01-15, 14d
-    鍚庣寮€鍙?     :2024-01-15, 14d
+    section 设计
+    需求分析      :a1, 2024-01-01, 7d
+    UI 设计      :after a1, 5d
+    section 开发
+    前端开发      :2024-01-15, 14d
+    后端开发      :2024-01-15, 14d
 ```
 
-鏇村绫诲瀷锛歚flowchart` `sequenceDiagram` `classDiagram` `stateDiagram` `erDiagram` `journey` `gantt` `pie` `mindmap` `timeline` `quadrantChart` `xychart-beta`
+更多类型：`flowchart` `sequenceDiagram` `classDiagram` `stateDiagram` `erDiagram` `journey` `gantt` `pie` `mindmap` `timeline` `quadrantChart` `xychart-beta`
 
 ---
 
-## 13. 鏁板鍏紡锛圠aTeX锛?
-GitHub 鏀寔 `$...$` 涓?`$$...$$`锛?
+## 13. 数学公式（LaTeX）
+
+GitHub 支持 `$...$` 与 `$$...$$`：
+
 ```markdown
-琛屽唴鍏紡锛?E = mc^2$
+行内公式：$E = mc^2$
 
-鍧楃骇鍏紡锛?
+块级公式：
+
 $$
 \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
 $$
 ```
 
-鏁堟灉锛?
-琛屽唴鍏紡锛?E = mc^2$
+效果：
 
-鍧楃骇鍏紡锛?
+行内公式：$E = mc^2$
+
+块级公式：
+
 $$
 \sum_{i=1}^{n} i = \frac{n(n+1)}{2}
 $$
 
 ---
 
-## 14. 浠ｇ爜鍧楀彉浣?
-| 璇█鏍囪瘑 | 鐢ㄩ€?|
+## 14. 代码块变体
+
+| 语言标识 | 用途 |
 |----------|------|
 | `python` / `py` | Python |
 | `javascript` / `js` | JS |
@@ -244,64 +274,69 @@ $$
 | `json` | JSON |
 | `yaml` / `yml` | YAML |
 | `bash` / `sh` / `console` | Shell |
-| `diff` | Diff 瀵规瘮 |
+| `diff` | Diff 对比 |
 | `sql` | SQL |
 | `html` | HTML |
 | `css` | CSS |
-| `go` / `rust` / `java` / `c` / `cpp` | 鍚勮瑷€ |
-| `mermaid` | 鍥捐〃 |
-| `text` / 鐣欑┖ | 绾枃鏈?|
+| `go` / `rust` / `java` / `c` / `cpp` | 各语言 |
+| `mermaid` | 图表 |
+| `text` / 留空 | 纯文本 |
 
-### diff 楂樹寒
+### diff 高亮
 
 ````markdown
 ```diff
-- 杩欒浼氳鍒犻櫎
-+ 杩欒鏄柊澧?  杩欒涓嶅彉
+- 这行会被删除
++ 这行是新增
+  这行不变
 ```
 ````
 
 ---
 
-## 15. 宓屽鍒楄〃涓庣缉杩?
+## 15. 嵌套列表与缩进
+
 ```markdown
-1. 涓€绾?   - 浜岀骇
-     - 涓夌骇
+1. 一级
+   - 二级
+     - 三级
        ```python
-       # 浠ｇ爜鍧椾篃鏀寔宓屽锛堟敞鎰忕缉杩涳級
+       # 代码块也支持嵌套（注意缩进）
        print("hello")
        ```
-2. 鍥炲埌涓€绾?```
+2. 回到一级
+```
 
-缂╄繘鐢?**绌烘牸**锛? 鎴?4 涓級锛屼笉瑕佺敤 Tab銆?
+缩进用 **空格**（2 或 4 个），不要用 Tab。
+
 ---
 
-## 16. 瀹氫箟鍒楄〃锛圙itHub 涓嶆敮鎸佸師鐢燂級
+## 16. 定义列表（GitHub 不支持原生）
 
-鍙敤 HTML 妯℃嫙锛?
+可用 HTML 模拟：
+
 ```html
 <dl>
-  <dt>鏈 A</dt>
-  <dd>瑙ｉ噴 A</dd>
-  <dt>鏈 B</dt>
-  <dd>瑙ｉ噴 B</dd>
+  <dt>术语 A</dt>
+  <dd>解释 A</dd>
+  <dt>术语 B</dt>
+  <dd>解释 B</dd>
 </dl>
 ```
 
 ---
 
-## 17. 棰滆壊鏂囧瓧 / 鑳屾櫙锛圚TML锛?
-```html
-<span style="color:#39C5BB">闈掕壊鏂囧瓧</span>
-<span style="background:#1a1a2e;color:#fff;padding:2px 6px;border-radius:4px">娣辫壊鏍囩</span>
-```
+## 17. 颜色文字 / 背景（HTML）
 
-鏁堟灉锛堥儴鍒嗗钩鍙版覆鏌擄級锛?
-<span style="color:#39C5BB">闈掕壊鏂囧瓧</span> 路 <span style="background:#1a1a2e;color:#fff;padding:2px 6px;border-radius:4px">娣辫壊鏍囩</span>
+```html
+<span style="color:#39C5BB">青色文字</span>
+<span style="background:#1a1a2e;color:#fff;padding:2px 6px;border-radius:4px">深色标签</span>
+```
 
 ---
 
-## 18. 鍝嶅簲寮忓搴﹀浘鐗囧鍣?
+## 18. 响应式宽度图片容器
+
 ```html
 <p align="center">
   <img src="./banner.png" width="100%" alt="Banner" />
@@ -310,22 +345,23 @@ $$
 
 ---
 
-## 19. 鍒嗘爮甯冨眬锛圚TML table 妯℃嫙锛?
+## 19. 分栏布局（HTML table 模拟）
+
 ```html
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### 宸︽爮鏍囬
+### 左栏标题
 
-鍐呭鍐欏湪杩欓噷锛屾敮鎸?Markdown锛堟敞鎰忓墠闈㈢┖琛岋級
+内容写在这里，支持 Markdown（注意前面空行）
 
     </td>
     <td width="50%" valign="top">
 
-### 鍙虫爮鏍囬
+### 右栏标题
 
-鍐呭鍐欏湪杩欓噷
+内容写在这里
 
     </td>
   </tr>
@@ -334,21 +370,21 @@ $$
 
 ---
 
-## 20. 鍥炲埌椤堕儴
+## 20. 回到顶部
 
 ```markdown
 <div align="right">
 
-[![Back to top](https://img.shields.io/badge/猬嗭笍_Back_to_top-39C5BB?style=for-the-badge)](#)
+[![Back to top](https://img.shields.io/badge/%E2%AC%86%EF%B8%8F_Back_to_top-39C5BB?style=for-the-badge)](#)
 
 </div>
 ```
 
 ---
 
-## 21. 杞箟瀛楃
+## 21. 转义字符
 
-| 鎯虫樉绀?| 鍐欐硶 |
+| 想显示 | 写法 |
 |--------|------|
 | `*` | `\*` |
 | `_` | `\_` |
@@ -360,22 +396,23 @@ $$
 
 ---
 
-## 22. HTML 娉ㄩ噴 / 闅愯棌鍐呭
+## 22. HTML 注释 / 隐藏内容
 
 ```markdown
-<!-- 杩欐娉ㄩ噴涓嶄細鏄剧ず鍦ㄦ覆鏌撶粨鏋滀腑 -->
+<!-- 这段注释不会显示在渲染结果中 -->
 
 <!--
-澶氳娉ㄩ噴
-澶氳娉ㄩ噴
+多行注释
+多行注释
 -->
 ```
 
 ---
 
-## 23. Issue / PR 妯℃澘
+## 23. Issue / PR 模板
 
-鍦ㄤ粨搴撲腑鍒涘缓锛?
+在仓库中创建：
+
 ```
 .github/
   ISSUE_TEMPLATE/
@@ -384,27 +421,32 @@ $$
   PULL_REQUEST_TEMPLATE.md
 ```
 
-`bug_report.md` 绀轰緥锛?
+`bug_report.md` 示例：
+
 ```markdown
 ---
 name: Bug report
-about: 鎶ュ憡涓€涓棶棰?title: "[Bug] "
+about: 报告一个问题
+title: "[Bug] "
 labels: bug
 assignees: ""
 ---
 
-**鎻忚堪**
-娓呮櫚绠€娲佸湴鎻忚堪闂銆?
-**澶嶇幇姝ラ**
-1. 鎵撳紑 '...'
-2. 鐐瑰嚮 '....'
-3. 鐪嬪埌閿欒
+**描述**
+清晰简洁地描述问题。
 
-**鏈熸湜琛屼负**
-浣犳湡鏈涘彂鐢熶粈涔堛€?
-**鎴浘**
-濡傛灉閫傜敤锛屾坊鍔犳埅鍥俱€?
-**鐜**
+**复现步骤**
+1. 打开 '...'
+2. 点击 '....'
+3. 看到错误
+
+**期望行为**
+你期望发生什么。
+
+**截图**
+如果适用，添加截图。
+
+**环境**
  - OS: [e.g. Windows 11]
  - Browser: [e.g. Chrome 120]
  - Version: [e.g. 1.0.0]
@@ -412,29 +454,37 @@ assignees: ""
 
 ---
 
-## 24. GitHub Actions 鐘舵€佸窘绔?
+## 24. GitHub Actions 状态徽章
+
 ```markdown
-![CI](https://img.shields.io/github/actions/workflow/status/22ABLE22/awesome-markdown-tips/ci.yml?branch=main&label=CI)
+![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main&label=CI)
 ```
 
-鎶?`.yml` 鏂囦欢鍚嶆崲鎴愪綘瀹為檯鐨?workflow 鏂囦欢銆?
----
-
-## 25. 浠撳簱鎻忚堪閲岀殑 emoji / 璇濋
-
-- 浠撳簱 **About** 鎻忚堪鏀寔 emoji
-- Topics 鐢ㄥ皬鍐欍€佽繛瀛楃锛歚machine-learning` `python` `cli`
-- 缃《浠撳簱锛圥rofile Pin锛夊彲绐佸嚭灞曠ず 6 涓?
----
-
-## 灏忕粨锛氭渶鍊煎緱璁颁綇鐨?10 鏉?
-1. **Shields.io** 涓€鏉?URL 灏辫兘鍑哄窘绔狅紝璁板緱 `style` 鍜?`logo` 鍙傛暟
-2. **github-readme-stats** 涓変欢濂楋細stats / top-langs / streak
-3. **star-history** 涓€琛屼唬鐮佺敾鍑?Star 鎶樼嚎鍥?4. **`<details>` 鎶樺彔** 鍓嶅悗蹇呴』绌鸿
-5. **skillicons.dev** 涓€琛屾憜鍑烘暣鎺掓妧鏈浘鏍?6. **Typing SVG** 璁╂爣棰樺姩璧锋潵
-7. **capsule-render** 鍋氬嚭濂界湅鐨勯〉鐪夐〉鑴氭尝娴?8. **contrib.rocks** 鑷姩澶村儚澧?9. **`> [!NOTE]`** 绛?GitHub 鍘熺敓鎻愮ず鍧?10. **琛ㄦ牸 + HTML** 缁勫悎鍙互鍋氬嚭浠绘剰甯冨眬
+把 `.yml` 文件名换成你实际的 workflow 文件。
 
 ---
 
-[猬嗭笍 鍥炲埌涓绘枃妗(./README.md)
+## 25. 仓库描述里的 emoji / 话题
 
+- 仓库 **About** 描述支持 emoji
+- Topics 用小写、连字符：`machine-learning` `python` `cli`
+- 置顶仓库（Profile Pin）可突出展示 6 个
+
+---
+
+## 小结：最值得记住的 10 条
+
+1. **Shields.io** 一条 URL 就能出徽章，记得 `style` 和 `logo` 参数
+2. **github-readme-stats** 三件套：stats / top-langs / streak
+3. **star-history** 一行代码画出 Star 折线图
+4. **`<details>` 折叠** 前后必须空行
+5. **skillicons.dev** 一行摆出整排技术图标
+6. **Typing SVG** 让标题动起来
+7. **capsule-render** 做出好看的页眉页脚波浪
+8. **contrib.rocks** 自动头像墙
+9. **`> [!NOTE]`** 等 GitHub 原生提示块
+10. **表格 + HTML** 组合可以做出任意布局
+
+---
+
+[⬆️ 回到主文档](./README.md)
